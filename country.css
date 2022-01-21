@@ -8,6 +8,7 @@
     width: 100vw;
     border-bottom: solid gray;
     position: relative;
+    background:linear-gradient(to bottom, none, black);
 
     /* 輔助高 */
     height: 600px;
@@ -22,7 +23,6 @@
 
 .bigword{
     text-align: center;
-    
 }
     
 .bigword a{
@@ -32,10 +32,56 @@
     padding: 20px;
     font-size: 24px;
     background-color: brown;
-    margin: 0 auto;
+    margin: 60px auto;
+    border-radius: 30px;
 }
 
-
 h4{
+    padding: 80px;
+}
+
+/* 旅遊景點 */
+.mid1{
+    background-color: #02023f;
+    width: 100%;
     padding: 50px;
+    border-bottom: gray 2px solid;
+}
+
+.mid1 h2{
+    color: white;
+    text-align: center;
+}
+
+.midin1{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.mid_1{
+    width: 200px;
+}
+
+.midin1 a{
+    /*  */
+   display: block;
+}
+
+.mid_1 img{
+    border-radius: 20px;
+    background-size: contain;
+    height: 250px;
+    width: 200px;
+}
+
+h3{
+    text-align: center;
+    margin-top: 50px;
+    transition: .8s;
+}
+
+.mid_1 h3:hover{
+    color: orange;
+    font-size: 26px;
 }
