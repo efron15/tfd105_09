@@ -1,0 +1,216 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    /* 要更動 */
+    width: 100vw;
+    font-size: 16px;
+    font-family:"DFKai-SB";
+}
+
+/* 
+h1{
+    display: flex;
+    width: 300px;
+    font-size: 30px;
+    color: white;
+} */
+
+h2{
+    font-size: 30px;
+    color: white;
+}
+
+h3{
+    font-size: 24px;
+    color: white;
+}
+
+h4{
+    font-size: 64px;
+    color: white;
+}
+
+p{
+    color: white;
+    display: inline-block;
+}
+
+i{
+    margin:0 10px 0 10px;
+    align-items: center;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    display:inline-block;
+    flex-grow: 1;   
+    font-size: 24px;
+    padding: 10px 0 10px 0;
+
+    /* 效果延遲 */
+    transition: .8s;
+}
+
+
+.out19{
+    width:100%;
+
+    /* 延伸背景色 */
+    /* background-color: brown; */
+}
+
+.out12{
+    width: 1200px;
+    margin:0 auto;
+    padding: 6px;
+    
+    position: relative;
+}
+
+.logo img{
+    display: inline;
+    width: 50px;
+}
+
+.lefthd1{
+    display: flex;
+    width: 500px;
+    border: blue 1px solid;
+}
+
+.righthd1{
+    display: flex;
+    position: absolute;
+
+    right: 6px;
+    top: 50%;
+    transform: translate(0%, -50%); 
+}
+
+
+/* 個別模塊 */
+
+/* 頂部第一塊 */
+.top1{
+    background-color: blue;
+}
+
+.fas fa-user{
+    font-size: 24px;
+}
+
+.top3{
+    border-bottom: gray 1px solid;
+}
+
+.logogo{
+    width: 250px;
+}
+
+li a{
+    text-align: center;
+}
+
+.logogo span{
+    font-size: 28px;
+}
+
+.rtlogo{
+    width: 600px;
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(0%, -50%);
+    font-size: 20px;
+    text-align: center;
+    justify-content: flex-end;
+    /* 輔助背景色 */
+    /* background-color: #fff; */
+}
+
+.rtlogo span{
+    border-left: 2px black solid;
+    padding-left: 8px;
+}
+
+/* 懸浮按鈕區 */
+.move_a{
+    position: fixed;
+    bottom: 140px;
+    right: 20px;
+    z-index: 1;
+    background-color: orange;
+    border-radius: 5px;
+}
+
+.move_a a{
+    font-size: 40px;
+    margin: 20px 0 ;
+    transition: .8s;
+}
+
+/* 效果欄位 */
+
+/* Logo欄+登入 */
+
+
+/* 目錄欄位效果 */
+li:hover{
+    color: orange;
+    background-color: orange;
+}
+
+/* 懸浮按鈕特效 */
+.move_a a:hover{
+    background-color: paleturquoise;
+    font-size: 60px;
+}
+
+/* footer */
+
+.ft{
+    display: flex;
+    padding: 20px;
+    background-color: rgba(94, 32, 32, 0.993);
+    position: relative;
+}
+
+.left_footer{
+    display: flex;
+    margin:20px;
+    align-items: flex-end;
+}
+
+.ft img{
+    display: inline-block;
+    width: 60px;
+}
+
+.ft h2{
+    padding-left: 20px ;
+}
+
+.right_footer{
+    width: 600px;
+    margin: 20px 0 20px 0 ;
+    flex-direction: column;
+    color: white;
+    position: absolute;
+    right: 0;
+}
+
+
+
+

@@ -1,0 +1,41 @@
+@import url(./reset.css);
+@import url(./modol.css);
+.bigbg{
+    background-image: url(./城市台北大圖.jpg);
+    background-size: contain;
+    background-size: cover;
+    display: block;
+    width: 100vw;
+    border-bottom: solid gray;
+    position: relative;
+
+    /* 輔助高 */
+    height: 600px;
+}
+
+.city{
+    width: 1200px;
+    margin: 0 auto;
+    height: 200px;
+    /* background-color: #fff; */
+}
+
+.bigword{
+    text-align: center;
+    
+}
+    
+.bigword a{
+    display: block;
+    width: 160px;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+    background-color: brown;
+    margin: 0 auto;
+}
+
+
+h4{
+    padding: 50px;
+}
