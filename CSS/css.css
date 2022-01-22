@@ -1,23 +1,9 @@
-@import url(../reset.css);
-@import url(./modol.css);
+@import url(./reset.css);
+@import url(./model.css);
 
-/* .lefthd1{
-    display: flex;
-    width: 500px;
-    border: blue 1px solid;
-}
-
-.righthd1{
-    display: flex;
-    position: absolute;
-
-    right: 6px;
-    top: 50%;
-    transform: translate(0%, -50%); 
-} */
 
 .bigbg{
-    background-image: url(./H700.2.png);
+    background-image: url(../pic/USAbigpic.png);
     background-size: contain;
     background-size: cover;
     display: block;
@@ -120,37 +106,3 @@ h3{
 
 
 
-/* footer
-
-.ft{
-    display: flex;
-    padding: 20px;
-    background-color: rgba(94, 32, 32, 0.993);
-    position: relative;
-}
-
-.left_footer{
-    display: flex;
-    margin:20px;
-    align-items: flex-end;
-}
-
-.ft img{
-    display: inline-block;
-    width: 60px;
-}
-
-.ft h2{
-    padding-left: 20px ;
-}
-
-.right_footer{
-    width: 600px;
-    margin: 20px 0 20px 0 ;
-    flex-direction: column;
-    color: white;
-    position: absolute;
-    right: 0;
-}
-
- */
