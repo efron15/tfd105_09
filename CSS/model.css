@@ -5,8 +5,9 @@
 body{
     /* 要更動 */
     width: 100vw;
-    font-size: 16px;
+    font-size: 18px;
     font-family:"DFKai-SB";
+    line-height: 1.2;
 }
 
 h2{
@@ -54,12 +55,8 @@ li{
     transition: .8s;
 }
 
-
 .out19{
     width:100%;
-
-    /* 延伸背景色 */
-    /* background-color: brown; */
 }
 
 .out12{
@@ -68,6 +65,10 @@ li{
     padding: 6px;
     
     position: relative;
+}
+
+.padding50{
+    padding: 50px;
 }
 
 .logo img{
@@ -203,6 +204,22 @@ li:hover{
     right: 0;
 }
 
+/* 指令效果塊 */
+.width500{
+    width: 500px;
+}
+
+.displayflex{
+    display: flex;
+}
+
+.margin-bottom30px{
+    margin-bottom: 30px;
+}
+
+.text-aligncenter{
+    text-align: center;
+}
 
 
 

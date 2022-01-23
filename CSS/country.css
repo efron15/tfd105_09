@@ -11,7 +11,7 @@
     background:linear-gradient(to bottom, none, black);
 
     /* 輔助高 */
-    height: 600px;
+    height: 700px;
 }
 
 .city{
@@ -36,7 +36,7 @@
     border-radius: 30px;
 }
 
-h4{
+.bigword h4{
     padding: 80px;
 }
 
@@ -64,7 +64,6 @@ h4{
 }
 
 .midin1 a{
-    /*  */
    display: block;
 }
 
@@ -85,3 +84,85 @@ h3{
     color: orange;
     font-size: 26px;
 }
+
+/* 中間部分 */
+
+/* 一區 */
+.main_one{
+    background-color:gray;
+}
+
+.main1_down img{
+    width: 600px;
+}
+
+.main1_down_right{
+    margin: auto 0;
+    padding-left: 40px;
+}
+
+/* 二區 */
+.main_two{
+    background-color: purple;
+}
+
+.main2_left{
+    margin:auto 0;
+    padding-right: 40px;
+}
+
+.main2 img{
+    width: 600px;
+}
+
+/* 三區 */
+.main_three{
+    background-color: gray;
+}
+
+.main3_down img{
+    width: 600px;
+}
+
+.main3_down_right{
+    margin:auto 0;
+    padding-left: 40px;
+}
+
+/* 四區 */
+.main_four{
+    background-color: blueviolet;
+}
+
+.main_four img{
+    width: 600px;
+}
+
+.main4_left{
+    margin:auto 0;
+    padding-right: 40px;
+}
+
+.main_four_bottom{
+    padding: 30px 0;
+}
+/* 
+.main_four_a{
+    width: 200px;
+    height: 40px;
+    background-color: brown;
+    border-radius: 25px;
+} */
+
+
+.main_four_bottom a{
+    display: block;
+    width: 200px;
+    color: white;
+    padding: 10px 0;
+    font-size: 24px;
+    background-color: rgb(42, 78, 177);
+    border-radius: 30px;
+    text-align: center;
+    margin-left: auto;
+}   
