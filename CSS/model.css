@@ -57,7 +57,7 @@ li{
     padding: 10px 0 10px 0;
 
     /* 效果延遲 */
-    transition: .8s;
+    /* transition: .8s; */
 }
 
 .out19{
@@ -167,8 +167,8 @@ li a{
 
 /* 目錄欄位效果 */
 li:hover{
-    color: orange;
-    background-color: orange;
+    /* color: orange; */
+    /* background-color: orange; */
 }
 
 /* 懸浮按鈕特效 */
