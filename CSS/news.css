@@ -1,10 +1,6 @@
 @import url(./reset.css);
 @import url(./model.css);
 
-.topword{
-
-} 
-
 .BGC_B .out12{
     padding-bottom: 0;
 }
@@ -34,6 +30,7 @@
 .outline{
     outline: 2px solid black;
     border-radius: 20px ;
+    margin-bottom: 30px;
 }
 
 .title{
@@ -65,11 +62,10 @@ button:hover{
     color:paleturquoise;
 }
 
-.outline i{
+.i_left_auto{
     display: inline-block;
     font-size: 24px;
     margin-left: auto;
-
 }
 
 .w1100{
@@ -80,14 +76,36 @@ button:hover{
 
 .w1100 ul{
     list-style-type:upper-roman;
-    padding-left: 25px;
+    padding-left: 28px;
+}
+
+.w1100 ol{
+    list-style: lower-roman;
+    padding-left: 28px ;
 }
 
 .w1100 li{
     width: 100%;
     display: list-item;
+    margin-top: 18px;
+    padding-right: 20px;
 }
 
+.w1100 .typeA{
+    list-style-type:lower-greek;
+    padding-left: 28px;
+}
+
+.w1100 a{
+    color:blue;
+    padding: 18px 18px 30px 38px ;
+    font-size: 18px;
+    transition: .8s;
+}
+
+.w1100 a:hover{
+    color: orange;
+}
 
 .w1100 p{
     color:black;
@@ -96,4 +114,8 @@ button:hover{
 
 .BGC_X{
     background-color:rgba(247, 234, 225);
+}
+
+.new_net{
+    display: flex;
 }
