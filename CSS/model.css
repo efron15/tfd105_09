@@ -4,25 +4,30 @@
 
 body{
     /* 要更動 */
-    width: 100vw;
-    font-size: 18px;
+    width: 100%;
+    font-size: 16px;
     font-family:"DFKai-SB";
     line-height: 1.2;
 }
 
 h2{
-    font-size: 30px;
+    font-size: 24px;
     color: white;
 }
 
 h3{
-    font-size: 24px;
+    font-size: 18px;
     color: white;
 }
 
 h4{
     font-size: 64px;
     color: white;
+}
+
+h5{
+    font-size: 36px;
+    color:white;
 }
 
 p{
@@ -38,7 +43,7 @@ i{
 a{
     display: block;
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 ul{
@@ -48,7 +53,7 @@ ul{
 li{
     display:inline-block;
     flex-grow: 1;   
-    font-size: 24px;
+    font-size: 18px;
     padding: 10px 0 10px 0;
 
     /* 效果延遲 */
@@ -67,6 +72,10 @@ li{
     position: relative;
 }
 
+.one{
+    background-color:rgb(118,118,118,0.6);
+}
+
 .padding50{
     padding: 50px;
 }
@@ -79,11 +88,11 @@ li{
 .lefthd1{
     display: flex;
     width: 500px;
-    border: blue 1px solid;
+    /* border: blue 1px solid; */
 }
 
 .righthd1{
-    display: flex;
+    display: flex; 
     position: absolute;
 
     right: 6px;
@@ -95,9 +104,6 @@ li{
 /* 個別模塊 */
 
 /* 頂部第一塊 */
-.top1{
-    background-color: blue;
-}
 
 .fas fa-user{
     font-size: 24px;
@@ -116,7 +122,7 @@ li a{
 }
 
 .logogo span{
-    font-size: 28px;
+    font-size: 24px;
 }
 
 .rtlogo{
@@ -126,7 +132,7 @@ li a{
     right: 0;
     top: 50%;
     transform: translate(0%, -50%);
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
     justify-content: flex-end;
     /* 輔助背景色 */
@@ -141,15 +147,15 @@ li a{
 /* 懸浮按鈕區 */
 .move_a{
     position: fixed;
-    bottom: 140px;
-    right: 20px;
+    bottom: 120px;
+    right: 10px;
     z-index: 1;
     background-color: orange;
     border-radius: 5px;
 }
 
 .move_a a{
-    font-size: 40px;
+    font-size: 30px;
     margin: 20px 0 ;
     transition: .8s;
 }
@@ -168,7 +174,8 @@ li:hover{
 /* 懸浮按鈕特效 */
 .move_a a:hover{
     background-color: paleturquoise;
-    font-size: 60px;
+    font-size: 45px;
+    margin: 30px 0;
 }
 
 /* footer */
@@ -176,7 +183,6 @@ li:hover{
 .ft{
     display: flex;
     padding: 20px;
-    background-color: rgba(94, 32, 32, 0.993);
     position: relative;
 }
 
@@ -188,7 +194,7 @@ li:hover{
 
 .ft img{
     display: inline-block;
-    width: 60px;
+    width: 50px;
 }
 
 .ft h2{
@@ -196,8 +202,8 @@ li:hover{
 }
 
 .right_footer{
-    width: 600px;
-    margin: 20px 0 20px 0 ;
+    width: 500px;
+    margin: 10px 0 20px 0 ;
     flex-direction: column;
     color: white;
     position: absolute;
@@ -205,6 +211,12 @@ li:hover{
 }
 
 /* 指令效果塊 */
+
+.box-shadow{
+    box-shadow: black 12px 11px 10px 5px;
+    border-radius: 8px;
+}
+
 .width500{
     width: 500px;
 }
@@ -221,5 +233,35 @@ li:hover{
     text-align: center;
 }
 
+.flex-grow{
+    flex-grow: 1
+}
 
+.displayblock{
+    display: block;
+}
+
+.BGC_A{
+    background-color: rgb(8, 32, 45);
+}
+
+.BGC_B{
+    background-color: rgb(15, 45, 60);
+}
+
+.BGC_C{
+    background-color: rgb(65, 59, 55);
+}
+
+.BGC_D{
+    background-color: #007aff ;
+}
+
+.displayinline-block{
+    display: inline-block;
+}
+
+.margin0{
+    margin: 0 auto;
+}
 

@@ -3,16 +3,15 @@
 
 
 .bigbg{
-    background-image: url(../pic/USAbigpic.png);
-    background-size: contain;
+    background-image: url(../pic/HappyNewYear.jpg);
     background-size: cover;
     display: block;
-    width: 100vw;
+    width: 100%;
     border-bottom: solid gray;
     position: relative;
 
     /* 輔助高 */
-    height: 800px;
+    height: 600px;
 }
 
 .bigword{
@@ -28,7 +27,6 @@
 
 /* 旅遊景點 */
 .mid1{
-    background-color: #02023f;
     width: 100%;
     padding: 50px;
     border-bottom: gray 2px solid;
@@ -42,16 +40,18 @@
 .midin1{
     display: flex;
     justify-content: space-between;
-    padding: 50px 0;
+    padding: 50px;
+    
 }
 
 .mid_1{
+    display: block;
     width: 200px;
+    /* outline: 5px black solid; */
 }
 
 .midin1 a{
-    /*  */
-   display: block;
+   /* display: block; */
 }
 
 .mid_1 img{
@@ -67,15 +67,18 @@ h3{
     transition: .8s;
 }
 
+
+/* 更動 */
 .mid_1 h3:hover{
     color: orange;
     font-size: 26px;
+    /* background-color: orange;
+    border-radius: 30px; */
 }
 
 /* Starlights */
 
 .mid2{
-    background-color:rgb(32, 32, 77);
     padding: 50px 110px;
     border-bottom: 2px solid gray;
 }
@@ -91,17 +94,19 @@ h3{
 }
 
 .mid_2{
-   width:400px;
+   width:300px;
 }
 
 .mid2 img{
-    width: 380px;
+    width: 300px;
     border-radius: 20px;
 }
 
+
+/* 要更動 */
 .mid_2 h3:hover{
-    color: orange;
-    font-size: 28px;
+    background-color:tomato ;
+    border-radius: 30px;
 }
 
 

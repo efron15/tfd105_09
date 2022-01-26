@@ -1,0 +1,64 @@
+@import url(./reset.css);
+@import url(./model.css);
+
+.topword{
+
+} 
+
+.BGC_B .out12{
+    padding-bottom: 0;
+}
+
+.halfline{
+    width: 500px;
+    /* 改成只有底線 */
+    border-bottom: 3px solid white;
+    padding-bottom: 20px;
+    transition: .8s;
+}
+
+.halfline h3{
+    transition: .8s;
+}
+
+.halfline:hover{
+    border-bottom: orange 3px solid;
+    border-radius: 2px;
+    color: orange;
+}
+
+.halfline:hover h3{
+    color: orange;
+}
+
+.outline{
+    outline: 2px solid black;
+    border-radius: 20px ;
+}
+
+.title{
+    padding: 12px 0 12px;
+}
+
+.buttonout{
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+    background-color: burlywood;
+    
+}
+
+button{
+    background-color: burlywood;
+    width: 1100px;
+    border-radius: 20px;
+    margin: 0 auto;
+    align-items: center;
+    border: none;
+}
+
+.outline i{
+    display: inline-block;
+    font-size: 24px;
+    margin-left: auto;
+
+}
