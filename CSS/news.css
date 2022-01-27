@@ -121,3 +121,7 @@ button:hover{
 .new_net{
     display: flex;
 }
+
+.news_notice{
+    display: none;
+}
