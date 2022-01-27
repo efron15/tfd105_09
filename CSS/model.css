@@ -21,13 +21,18 @@ h3{
 }
 
 h4{
-    font-size: 64px;
+    font-size: 48px;
     color: white;
 }
 
 h5{
     font-size: 36px;
     color:white;
+}
+
+h6{
+    font-size: 64px;
+    color: white;
 }
 
 p{
@@ -74,10 +79,6 @@ a{
 
 .one{
     background-color:rgb(118,118,118,0.6);
-}
-
-.padding50{
-    padding: 50px;
 }
 
 .logo img{
@@ -217,8 +218,26 @@ li:hover{
     border-radius: 8px;
 }
 
+.w1100{
+    width: 1100px;
+    margin: 0 auto;
+    padding:20px 6px ;
+}
+
+.w360{
+    width: 360px;
+}
+
 .width500{
     width: 500px;
+}
+
+.padding50{
+    padding: 50px;
+}
+
+.padding20{
+    padding: 20px;
 }
 
 .displayflex{
@@ -257,6 +276,10 @@ li:hover{
     background-color: #007aff ;
 }
 
+.BGC_X{
+    background-color:rgba(247, 234, 225);
+}
+
 .displayinline-block{
     display: inline-block;
 }
@@ -265,3 +288,19 @@ li:hover{
     margin: 0 auto;
 }
 
+.margin-left{
+    margin-left: auto;
+}
+
+.no1{
+    order: 3;
+}
+
+.no2{
+    order: 2;
+}
+
+.no3{
+    order: 1;
+    background: center;
+}

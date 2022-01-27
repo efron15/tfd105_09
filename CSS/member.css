@@ -7,11 +7,8 @@
     margin: 0 auto;
     background-size: cover;
     background-position: center;
-    /* background: no-repeat; */
     height: 600px;  
-    /* padding-top: 180px ; */
-    /* padding-bottom: 500px; */
-    text-align: center;
+    
     justify-content: center;
 }
 
