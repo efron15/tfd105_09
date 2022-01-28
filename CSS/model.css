@@ -163,7 +163,6 @@ li a{
 
 /* 效果欄位 */
 
-/* Logo欄+登入 */
 
 
 /* 目錄欄位效果 */
@@ -292,15 +291,3 @@ li:hover{
     margin-left: auto;
 }
 
-.no1{
-    order: 3;
-}
-
-.no2{
-    order: 2;
-}
-
-.no3{
-    order: 1;
-    background: center;
-}

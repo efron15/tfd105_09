@@ -70,7 +70,7 @@ button:hover{
     width: 1200px;
     margin: 0 auto;
     padding-left: 2px;
-    margin-right: 0;
+    /* margin-right: 0; */
 }
 
 
@@ -105,6 +105,21 @@ button:hover{
     padding: 2px;
 }
 
+
+/* 順序層 */
 .padding0{
     padding: 0;
+}
+
+.no1{
+    order: 3;
+}
+
+.no2{
+    order: 2;
+}
+
+.no3{
+    order: 1;
+    background: center;
 }

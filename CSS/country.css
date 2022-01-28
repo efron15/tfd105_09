@@ -35,6 +35,10 @@
     color: white;
 }
 
+.bigword_a a{
+    transition: .8s;
+}
+
 .bigword h4{
     padding: 80px;
 }
@@ -146,4 +150,15 @@ h3{
     margin-right: 50px;
 }   
 
+.main_four_a a{
+    transition: .8s;
+}
+
 /* 特效 */
+
+.main_four_a:hover a{
+    color: orange;
+}
+.bigword_a:hover a{
+    color: orange;
+}

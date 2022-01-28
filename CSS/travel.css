@@ -1,0 +1,126 @@
+@import url(./reset.css);
+@import url(./model.css);
+
+.ooo{
+    background-image: url(../pic/TravelBG.jpg);
+    padding: 0;
+    
+    border-radius: 20px;
+    outline: 3px black solid;
+}
+
+/* 遮色層 */
+.color06{
+    background-color:rgb(118,118,118,0.6);
+    border-radius: 20px;
+    padding: 2px;
+}
+
+.w1000{
+    width: 1000px;
+    margin: 50px auto;
+    display: flex;
+
+
+    margin-bottom: 12px;
+    height: 80px;
+    /* background-color: cornflowerblue; */
+    
+}
+
+.w480{
+    width: 480px;
+    border: 1px black solid;
+    border-radius: 20px;
+    margin: 0 10px;
+    /* flex-grow: 1; */
+}
+
+.w240{
+    width: 240px;
+    outline: 1px black solid;
+    margin: 0 10px;
+    border-radius: 20px;
+}
+
+.w150{
+    width: 150px ;
+    outline: 2px solid black;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: 10px;
+}
+.w150 a{
+    border-radius: 20px;
+}
+
+.w150 h2{
+    padding: 10px;
+    transition: .7s;
+}
+
+.w150 :hover h2{
+    color: orange;
+    padding: 20px 0;
+}
+
+.w200{
+    width: 200px;
+    margin-left: 20px;
+    cursor: help;
+}
+
+.align-itemscenter{
+    align-items: center;
+}
+
+.justline{
+    width: 1000px;
+    margin: 30px auto;
+    height: 4px;
+    border-radius: 3px;
+    background-image: linear-gradient(to right,lightblue,pink, purple );
+}
+
+.padding20{
+    padding: 20px 0;
+}
+
+/* 出發.目的地 */
+.w480 h2{
+
+}
+
+/* 選擇航向 */
+.w240 h2{
+    margin:0 10px 0 20px ;
+}
+
+/* 選擇日期 */
+.date{
+    width: 200px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.w480 h2{
+    margin-left: 20px;
+}
+
+.country{
+    margin:0 10px 0 20px;
+}
+
+/* 選擇人數及艙等 */
+.level h3{
+    margin:0 5px;
+}
+
+
+
+/* 下方微調 */
+.w200 h3{
+    color: #000;
+}
