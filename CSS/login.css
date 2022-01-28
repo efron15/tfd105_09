@@ -1,0 +1,145 @@
+@import url(./reset.css);
+@import url(./model.css);
+
+body{
+    overflow:auto ;
+}
+
+.BGC_star {
+    background-image: url(../pic/StarBG.jpg);
+    height: 800px;
+}
+
+/* 返回紐 */
+.back{
+    width: 120px;
+    height: 40px;
+    /* background-color:grey ; */
+}
+
+.back i{
+    font-size: 36px;
+}
+
+.color03{
+    background-color:rgb(118,118,118,0.3);
+    height: 100%;
+}
+
+.padding_100{
+    padding: 100px 0;
+}
+
+.ox{
+    padding:  0;
+}
+
+.w600{
+    width: 600px;
+    height: 500px;
+}
+
+.w600 img{
+    margin-top: 80px;
+    display: block;
+}
+
+.w60{
+    width: 120px;
+}
+
+h2{
+    margin-top: 30px;
+}
+
+
+/* 左側元素設定 */
+.join{
+    margin-top: 80px;
+    font-size: 18px;
+    color: #007aff;
+    transition: .8s;
+}
+
+.join:hover{
+    text-decoration: underline;
+    color: orange;
+}
+
+.bird1{
+    opacity: 1;
+    transition: .4s;
+}
+
+.join:hover .bird1{
+    opacity: 0;
+}
+
+.bird2{
+    opacity: 0;
+    transition: .7s;
+}
+
+.join:hover .bird2{
+    opacity: 1;
+}
+
+/* 右邊元素設定 */
+.right_side h2{
+    color:black;
+    margin-bottom: 50px;
+}
+
+.login input{
+    display: block;
+    width: 360px;
+    margin: 20px auto;
+    border: 2px solid blue;
+    border-radius: 10px;
+    padding: 10px;
+    outline: none;
+    text-align: center;
+    font-size: 18px;
+    transition: .8s;
+}
+
+.login input:focus{
+    border: orange 2px solid;
+    width: 440px;
+    border-radius:40px ;
+}
+
+input[type="submit"]{
+    width: 160px;
+    height: 40px;
+    display: block;
+    font-size: 20px;
+    background-color: rgb(65, 59, 55);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    transition: .8s;
+    margin-top: 20px;
+    margin-left: auto;
+}
+
+input[type="submit"]:hover{
+    color: orange;
+}
+
+.forget{
+    width: 120px;
+    color: black;
+    display: block;
+    margin: 20px auto ;
+}
+
+.remember{
+    width: 250px;
+    margin-left: 80px;
+}
+
+input[type="checkbox"]{
+    align-items: center;
+}

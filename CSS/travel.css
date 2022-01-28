@@ -20,12 +20,8 @@
     width: 1000px;
     margin: 50px auto;
     display: flex;
-
-
     margin-bottom: 12px;
-    height: 80px;
-    /* background-color: cornflowerblue; */
-    
+    height: 80px;    
 }
 
 .w480{
@@ -33,7 +29,6 @@
     border: 1px black solid;
     border-radius: 20px;
     margin: 0 10px;
-    /* flex-grow: 1; */
 }
 
 .w240{
@@ -62,7 +57,6 @@
 
 .w150 :hover h2{
     color: orange;
-    padding: 20px 0;
 }
 
 .w200{
@@ -88,9 +82,7 @@
 }
 
 /* 出發.目的地 */
-.w480 h2{
 
-}
 
 /* 選擇航向 */
 .w240 h2{
@@ -117,7 +109,6 @@
 .level h3{
     margin:0 5px;
 }
-
 
 
 /* 下方微調 */

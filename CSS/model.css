@@ -120,6 +120,7 @@ a{
 
 li a{
     text-align: center;
+    transition: .8s;
 }
 
 .logogo span{
@@ -166,8 +167,8 @@ li a{
 
 
 /* 目錄欄位效果 */
-li:hover{
-    /* color: orange; */
+li:hover a{
+    color: orange;
     /* background-color: orange; */
 }
 
@@ -249,6 +250,10 @@ li:hover{
 
 .text-aligncenter{
     text-align: center;
+}
+
+.align-items_center{
+    align-items: center;
 }
 
 .flex-grow{
