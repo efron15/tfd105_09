@@ -50,10 +50,6 @@
     /* outline: 5px black solid; */
 }
 
-.midin1 a{
-   /* display: block; */
-}
-
 .mid_1 img{
     border-radius: 20px;
     background-size: contain;
@@ -71,7 +67,7 @@ h3{
 /* 更動 */
 .mid_1 h3:hover{
     color: orange;
-    font-size: 26px;
+    /* font-size: 26px; */
     /* background-color: orange;
     border-radius: 30px; */
 }
