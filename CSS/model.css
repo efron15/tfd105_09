@@ -8,6 +8,7 @@ body{
     font-size: 16px;
     font-family:"DFKai-SB";
     line-height: 1.2;
+    /* position: relative; */
 }
 
 h2{
@@ -49,6 +50,12 @@ a{
     display: block;
     text-decoration: none;
     color: white;
+}
+
+/* 需調整 */
+.menu{
+    position: sticky;
+    top: 0;
 }
 
 .menu ul{
