@@ -63,9 +63,31 @@ h3{
     transition: .8s;
 }
 
+.w200{
+    width: 200px;
+    margin: 0 auto;
+    height: 50px;
+    /* background:#DDDDDD; */
+}
+
+.oo{
+    width: 20px;
+    height: 20px;
+    background-color: paleturquoise;
+    border-radius: 50%;
+    margin: 10px;
+    flex-grow: 1;
+    transition: .8s;
+}
+
+.oo:hover{
+    cursor:pointer ;
+    background-color: orange;
+}
+
 
 /* 更動 */
-.mid_1 h3:hover{
+.mid_1:hover h3{
     color: orange;
     /* font-size: 26px; */
     /* background-color: orange;
@@ -100,7 +122,7 @@ h3{
 
 
 /* 要更動 */
-.mid_2 h3:hover{
+.mid_2:hover h3{
     background-color:tomato ;
     border-radius: 30px;
 }
