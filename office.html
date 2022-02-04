@@ -5,10 +5,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./pic/VA_logo.jpg" type="image/x-icon" />
     <link rel="stylesheet" href="./CSS/office.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <title>各地聯絡資訊</title>
+    <script src="scripts/jquery-3.4.0.js"></script>
+    <script>
+        $( document ).ready(function() {
+            $('.commonbtn').click(function(){
+                var id = this.id;
+                lastId = id.substr(5);
+                $(`#fake_${lastId}`).hide();
+                $('#real_' + lastId).slideDown(500)
+            })
+        });
+    </script>
 </head>
 
 <body>
@@ -92,7 +104,7 @@
             <div class="out121">
                 <div class="buttonout">
 
-                    <button type="button" class="displayflex">
+                    <button type="button" class="displayflex commonbtn" id="fake_1">
 
                         <h2 class="h2">台灣</h2>
                         <i class="fas fa-chevron-circle-down i_left_auto"></i>
@@ -103,7 +115,7 @@
             </div>
 
             <!-- 台灣區 -->
-            <div class="outline out12 BGP_1 padding0">
+            <div class="outline out12 BGP_1 padding0 none" id="real_1">
 
                 <div class="color06">
 
@@ -177,7 +189,7 @@
             <div class="out122">
                 <div class="buttonout">
 
-                    <button type="button" class="displayflex margin-left">
+                    <button type="button" class="displayflex margin-left commonbtn" id="fake_2">
 
                         <h2 class="h2">泰國</h2>
                         <i class="fas fa-chevron-circle-down i_left_auto"></i>
@@ -188,7 +200,7 @@
             </div>
 
             <!-- 曼谷區 -->
-            <div class="out19 BGC_A padding20">
+            <div class="out19 BGC_A padding20 none" id="real_2">
 
                 <div class="out12">
 
@@ -275,7 +287,7 @@
             <div class="out121">
                 <div class="buttonout">
 
-                    <button type="button" class="displayflex">
+                    <button type="button" class="displayflex commonbtn" id="fake_3">
 
                         <h2 class="h2">日本</h2>
                         <i class="fas fa-chevron-circle-down i_left_auto"></i>
@@ -286,7 +298,7 @@
             </div>
 
             <!-- 日本區 -->
-            <div class="outline out12 BGP_3 padding0">
+            <div class="outline out12 BGP_3 padding0 none" id="real_3">
 
                 <div class="color06">
 
@@ -359,7 +371,7 @@
             <div class="out122">
                 <div class="buttonout">
 
-                    <button type="button" class="displayflex margin-left">
+                    <button type="button" class="displayflex margin-left commonbtn" id="fake_4">
 
                         <h2 class="h2">澳門</h2>
                         <i class="fas fa-chevron-circle-down i_left_auto"></i>
@@ -370,7 +382,7 @@
             </div>
 
             <!-- 澳門區 -->
-            <div class="out19 BGC_A padding20">
+            <div class="out19 BGC_A padding20 none" id="real_4">
 
                 <div class="out12">
 

@@ -5,10 +5,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./pic/VA_logo.jpg" type="image/x-icon" />
     <link rel="stylesheet" href="./CSS/login.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <script src="scripts/jquery-3.4.0.js"></script>
     <title>Document</title>
+    <script>
+        $( document ).ready(function() {
+            var status = 1;//1狀態是登入 2是註冊
+            $('#change_login').click(function(event){
+                event.preventDefault();
+                if(status == 1){
+                    $('#change_login').html(`<i class="fas fa-kiwi-bird bird1"></i>Login<i class="fas fa-dove bird2"></i>`);
+                    $('#login_btn').css('display','none')
+                    $('#register_btn').css('display','block');
+                    status = 2;
+                }else{
+                    $('#change_login').html(`<i class="fas fa-kiwi-bird bird1"></i>Join us<i class="fas fa-dove bird2"></i>`);
+                    $('#login_btn').css('display','block')
+                    $('#register_btn').css('display','none');
+                    status = 1;
+                }
+                
+            })
+        });
+    </script>
 </head>
 
 <body>
@@ -73,7 +95,7 @@
                         <p>歡迎您的加入</p>
 
 
-                        <a href="#" class="join">
+                        <a href="#" class="join" id="change_login">
 
                             <i class="fas fa-kiwi-bird bird1"></i>
                             Join Us
@@ -84,7 +106,7 @@
                     </div>
 
                     <!-- 登入 -->
-                    <div class="w600 text-aligncenter padding50 right_side">
+                    <div class="w600 text-aligncenter padding50 right_side" id="login_btn">
 
                         <h2>登入 Login</h2>
                         
@@ -109,6 +131,19 @@
 
                     </div>
 
+                    <div class="w600 text-aligncenter padding50 right_side" style="display: none;" id="register_btn">
+
+                        <h2>註冊</h2>
+                        
+                        <div class="login">
+                            <input type="text" placeholder="Username">
+                            <input type="password" placeholder="Password">
+                            
+                        </div>
+                        
+                        <input type="submit" value="Login">
+
+                    </div>
 
             
 
