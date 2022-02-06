@@ -11,26 +11,7 @@
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <script src="scripts/jquery-3.4.0.js"></script>
     <title>Document</title>
-    <script>
-        $( document ).ready(function() {
-            var status = 1;//1狀態是登入 2是註冊
-            $('#change_login').click(function(event){
-                event.preventDefault();
-                if(status == 1){
-                    $('#change_login').html(`<i class="fas fa-kiwi-bird bird1"></i>Login<i class="fas fa-dove bird2"></i>`);
-                    $('#login_btn').css('display','none')
-                    $('#register_btn').css('display','block');
-                    status = 2;
-                }else{
-                    $('#change_login').html(`<i class="fas fa-kiwi-bird bird1"></i>Join us<i class="fas fa-dove bird2"></i>`);
-                    $('#login_btn').css('display','block')
-                    $('#register_btn').css('display','none');
-                    status = 1;
-                }
-                
-            })
-        });
-    </script>
+    
 </head>
 
 <body>
@@ -139,7 +120,7 @@
                         
                         <div class="login">
                             <input type="text" placeholder="名字,姓氏">
-                            <input type="text" placeholder="Username">
+                            <input type="text" placeholder="UserName">
                             <input type="email" placeholder="YourEmail@gmail.com">
                             <input type="password" placeholder="Password">
                             
@@ -190,6 +171,26 @@
         </div>
     </footer>
 
+    <script>
+        $( document ).ready(function() {
+            var status = 1;//1狀態是登入 2是註冊
+            $('#change_login').click(function(event){
+                event.preventDefault();
+                if(status == 1){
+                    $('#change_login').html(`<i class="fas fa-kiwi-bird bird1"></i>Login<i class="fas fa-dove bird2"></i>`);
+                    $('#login_btn').css('display','none')
+                    $('#register_btn').css('display','block');
+                    status = 2;
+                }else{
+                    $('#change_login').html(`<i class="fas fa-kiwi-bird bird1"></i>Join us<i class="fas fa-dove bird2"></i>`);
+                    $('#login_btn').css('display','block')
+                    $('#register_btn').css('display','none');
+                    status = 1;
+                }
+                
+            })
+        });
+    </script>
 </body>
 
 </html>
