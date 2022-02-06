@@ -312,3 +312,14 @@ li:hover a{
 .none{
     display: none;
 }
+
+.sticky{
+position: -webkit-sticky;
+position: sticky;
+top: 0;
+z-index: 1;
+}
+
+.hide_menu{
+    z-index: 2;
+}

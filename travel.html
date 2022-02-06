@@ -12,13 +12,7 @@
     <script src="scripts/jquery-3.4.0.js"></script>
     <script src="library/nowtime.js"></script>
     <title>預定行程</title>
-    <script>
-        $(document).ready( function() {
-        today = nowtime();
-        $('#date').val(today);
-        });
-        
-    </script>
+    
 </head>
 
 <body>
@@ -68,7 +62,7 @@
     </div>
 
     <!-- 選單列表 -->
-    <div class="one out19 top3 BGC_B">
+    <div class="one out19 top3 BGC_B sticky">
 
         <div class="out12 menu">
             <ul>
@@ -355,6 +349,13 @@
         </div>
     </footer>
 
+    <script>
+        $(document).ready( function() {
+        today = nowtime();
+        $('#date').val(today);
+        });
+        
+    </script>
 
 </body>
 
