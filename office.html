@@ -11,17 +11,6 @@
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <script src="scripts/jquery-3.4.0.js"></script>
     <title>各地聯絡資訊</title>
-
-    <script>
-        $(document).ready(function () {
-            $('.commonbtn').click(function () {
-                var id = this.id;
-                lastId = id.substr(5);
-                $(`#fake_${lastId}`).hide();
-                $('#real_' + lastId).slideDown(500)
-            })
-        });
-    </script>
 </head>
 
 <body>
@@ -507,7 +496,16 @@
         </div>
     </footer>
 
-
+    <script>
+        $(document).ready(function () {
+            $('.commonbtn').click(function () {
+                var id = this.id;
+                lastId = id.substr(5);
+                $(`#fake_${lastId}`).hide();
+                $('#real_' + lastId).slideDown(500)
+            })
+        });
+    </script>
 </body>
 
 </html>
