@@ -24,6 +24,40 @@
     height: 80px;    
 }
 
+.w1000h210{
+    width: 1000px;
+    height: 280px;
+    display: flex;
+    margin: 50px auto;
+    margin-bottom: 12px;
+}
+
+.w960{
+    width: 960px;
+    margin: 30px;
+    border: #000 1px solid;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.w960 h5{
+    margin: 20px;
+}
+
+.w900{
+    width: 900px;
+    margin: 0 auto;
+    /* border: #000 1px solid; */
+    /* border-radius: 20px; */
+    /* height: 60px; */
+    margin-top: 0px;
+    padding:10px;
+}
+
+.w900 h2{
+    margin: 0 20px;
+} 
+
 .w480{
     width: 480px;
     border: 1px black solid;
