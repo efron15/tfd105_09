@@ -94,7 +94,7 @@ h3{
 /* Starlights */
 
 .mid2{
-    padding: 50px 110px;
+    padding: 50px ;
     border-bottom: 2px solid gray;
 }
 
@@ -109,19 +109,18 @@ h3{
 }
 
 .mid_2{
-   width:300px;
+   width:30%;
 }
 
 .mid2 img{
-    width: 300px;
+    width: 100%;
     border-radius: 20px;
 }
 
 
 /* 要更動 */
 .mid_2:hover h3{
-    background-color:tomato ;
-    border-radius: 30px;
+    color:orange ;
 }
 
 

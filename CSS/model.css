@@ -62,6 +62,7 @@ a{
 
 .menu ul{
     display: flex;
+    
 }
 
 .menu li{
@@ -69,9 +70,6 @@ a{
     flex-grow: 1;   
     font-size: 18px;
     padding: 10px 0 10px 0;
-
-    /* 效果延遲 */
-    /* transition: .8s; */
 }
 
 .out19{
@@ -159,7 +157,7 @@ li a{
 .move_a{
     position: fixed;
     bottom: 120px;
-    right: 10px;
+    right: 5px;
     z-index: 1;
     background-color: orange;
     border-radius: 10px;
@@ -167,7 +165,7 @@ li a{
 
 .move_a a{
     font-size: 25px;
-    padding: 5px;
+    padding: 7px 5px 5px 5px;
     margin: 20px 0 ;
     transition: .8s;
 }
@@ -178,15 +176,15 @@ li a{
 
 /* 目錄欄位效果 */
 li:hover a{
-    color: orange;
+    color: #FFBB4F;
     /* background-color: orange; */
 }
 
 /* 懸浮按鈕特效 */
 .move_a a:hover{
     background-color: paleturquoise;
-    font-size: 40px;
-    margin: 30px 0;
+    /* font-size: 40px; */
+    margin: 20px 0;
     border-radius: 50%;
 }
 
@@ -288,7 +286,15 @@ li:hover a{
 }
 
 .BGC_D{
-    background-color: #007aff ;
+    background-color: #5A1502 ;
+}
+
+.BGC_E{
+    background-color: #9C2800;
+}
+
+.BGC_F{
+    background-color: #FFBB4F;
 }
 
 .BGC_X{
@@ -307,12 +313,18 @@ li:hover a{
     margin-left: auto;
 }
 
-.red{
-    color: rgb(173, 0, 32);
+.news{
+    color: #FFBB4F;
 }
 
 .none{
     display: none;
+}
+
+.wrap{
+    /* display: flex; */
+    flex-wrap: wrap;
+
 }
 
 .sticky{
