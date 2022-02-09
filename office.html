@@ -112,7 +112,7 @@
                     <!-- 台灣按鈕 -->
                     <div class="buttonout">
 
-                        <button type="button" class="displayflex">
+                        <button type="button" class="displayflex close" id="close_1">
 
                             <h2 class="h2">台灣</h2>
                             <i class="fas fa-chevron-circle-down i_left_auto"></i>
@@ -199,7 +199,7 @@
 
                         <div class="color06">
 
-                            <div class="buttonout">
+                            <div class="buttonout close" id="close_2">
                                 <button type="button" class="displayflex margin-left">
                                     <h2 class="h2 ">泰國</h2>
                                     <i class="fas fa-chevron-circle-down i_left_auto"></i>
@@ -294,7 +294,7 @@
 
                     <div class="buttonout">
 
-                        <button type="button" class="displayflex">
+                        <button type="button" class="displayflex close" id="close_3">
 
                             <h2 class="h2">日本</h2>
                             <i class="fas fa-chevron-circle-down i_left_auto"></i>
@@ -383,7 +383,7 @@
 
                         <div class="color06">
 
-                            <div class="buttonout">
+                            <div class="buttonout close" id="close_4">
                                 <button type="button" class="displayflex margin-left">
                                     <h2 class="h2 ">澳門</h2>
                                     <i class="fas fa-chevron-circle-down i_left_auto"></i>
@@ -499,11 +499,22 @@
     <script>
         $(document).ready(function () {
             $('.commonbtn').click(function () {
-                var id = this.id;
+                let id = this.id;
                 lastId = id.substr(5);
                 $(`#fake_${lastId}`).hide();
-                $('#real_' + lastId).slideDown(500)
+                $('#real_' + lastId).slideDown(500);   
             })
+            
+        });
+
+        $(document).ready(function () {
+            $('.close').click(function () {
+                let id = this.id;
+                lastId = id.substr(6);
+                $(`#real_${lastId}`).hide();
+                $('#fake_' + lastId).show();   
+            })  
+            
         });
     </script>
 </body>
