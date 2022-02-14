@@ -10,6 +10,10 @@
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <script src="scripts/jquery-3.4.0.js"></script>
+    <!-- owl.carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"></link>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"></link>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <title>VA Airline</title>
 </head>
 
@@ -47,8 +51,12 @@
 
     <!-- 背景圖層 -->
     <div class="bigbg" id="bigbg">
-        <img src="./pic/HappyNewYear.jpg" alt="" class="bigbg">
-
+        <div class="owl-carousel owl-theme">
+            <div class="item"><img src="./pic/HappyNewYear.jpg" alt="" class="bigbg"></div>
+            <div class="item"><img src="./pic/HappyNewYear.jpg" alt="" class="bigbg"></div>
+            <div class="item"><img src="./pic/HappyNewYear.jpg" alt="" class="bigbg"></div>
+            <div class="item"><img src="./pic/HappyNewYear.jpg" alt="" class="bigbg"></div>
+        </div>
         <!-- Logo層 -->
         <div class="one out19 top_fixd">
             <div class="out12 logo">
@@ -165,7 +173,32 @@
 
     <!-- 隱藏選單出現 -->
     <script src="./scripts/scroll.js"></script>
+    <script>
+        $(".owl-carousel").owlCarousel({
+            loop: true, // 循環播放
+            margin: 0, // 外距 10px
+            nav: false, // 顯示點點
+            autoplay: true, // 自動輪播
+            autoplaySpeed: 1000,
+            autoplayTimeout: 4000, // 切換時間
+            autoplayHoverPause: true, // 滑鼠經過時暫停
+            responsive: {
+                0: {
+                items: 1 // 螢幕大小為 0~600 顯示 1 個項目
+                },
+                600: {
+                items: 1 // 螢幕大小為 600~1000 顯示 3 個項目
+                },
+                1000: {
+                items: 1 // 螢幕大小為 1000 以上 顯示 5 個項目
+                }
+            }
+        });
 
+        var dots = $('.owl-dots').css('position', 'absolute').css('bottom', '5px');
+        dots.css('left', 'calc(50% - ' + dots.width()/2+'px)');
+
+    </script>
 </body>
 
 </html>

@@ -17,6 +17,7 @@
 .top_fixd{
     position: absolute;
     top: 0px;
+    z-index: 1;
 }
 
 .top_fixd_menu{
