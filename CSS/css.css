@@ -3,7 +3,7 @@
 
 
 .bigbg{
-    background-image: url(../pic/HappyNewYear.jpg);
+    /* background-image: url(../pic/HappyNewYear.jpg); */
     background-size: cover;
     display: block;
     width: 100%;
@@ -12,6 +12,16 @@
 
     /* 輔助高 */
     height: 600px;
+}
+
+.top_fixd{
+    position: absolute;
+    top: 0px;
+}
+
+.top_fixd_menu{
+    position: absolute;
+    top: 58px;
 }
 
 .bigword{
