@@ -10,7 +10,6 @@ body{
     font-size: 16px;
     font-family:"DFKai-SB";
     line-height: 1.2;
-    /* position: relative; */
 }
 
 h2{
@@ -80,7 +79,6 @@ a{
     width: 1200px;
     margin:0 auto;
     padding: 6px;
-    
     position: relative;
 }
 
@@ -96,13 +94,11 @@ a{
 .lefthd1{
     display: flex;
     width: 500px;
-    /* border: blue 1px solid; */
 }
 
 .righthd1{
     display: flex; 
     position: absolute;
-
     right: 6px;
     top: 50%;
     transform: translate(0%, -50%); 
@@ -110,9 +106,7 @@ a{
 
 
 /* 個別模塊 */
-
 /* 頂部第一塊 */
-
 .fas fa-user{
     font-size: 24px;
 }
@@ -171,9 +165,6 @@ li a{
 }
 
 /* 效果欄位 */
-
-
-
 /* 目錄欄位效果 */
 li:hover a{
     color: #FFBB4F;
@@ -324,7 +315,6 @@ li:hover a{
 .wrap{
     /* display: flex; */
     flex-wrap: wrap;
-
 }
 
 .sticky{
