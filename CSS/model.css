@@ -148,16 +148,6 @@ a {
   }
 }
 
-#box {
-  overflow: hidden;
-  width: 100px;
-  height: 50px;
-}
-.centerBox > ul {
-  margin: 0 auto;
-  padding: 0;
-}
-
 /* 頂部第一塊 */
 .fas fa-user {
   font-size: 24px;
@@ -168,7 +158,7 @@ a {
 }
 
 .logogo {
-  width: 250px;
+  /* width: 250px; */
 }
 
 li a {
@@ -181,7 +171,7 @@ li a {
 }
 
 .rtlogo {
-  width: 50%;
+  /* width: 50%; */
   display: flex;
   position: absolute;
   right: 0;
@@ -251,8 +241,8 @@ li:hover a {
 }
 
 .right_footer {
-  width: 50%;
-  margin: 0px 0 20px 0;
+  width: 60%;
+  margin: 5px 0 20px 0;
   flex-direction: column;
   color: white;
   position: absolute;
@@ -264,6 +254,10 @@ li:hover a {
 .box-shadow {
   box-shadow: black 12px 11px 10px 5px;
   border-radius: 8px;
+}
+
+.w1200{
+  width: 1200px;
 }
 
 .w1100 {
@@ -382,11 +376,41 @@ li:hover a {
     width: 100%;
   }
 
+  .w1200{
+    width: 100%;
+  }
+
+  .w1160{
+    width: 100%;
+  }
+
   .w1100{
-    /* width: 95%; */
+    width: 95%;
+  }
+
+  .w600{
+    width: 50%;
+  }
+
+  .w1000{
+    width: 100%;
   }
 
   .city{
     width: 100%;
   }
+
+  .w360{
+    width: 50%;
+  }
+
+  .w480{
+    width: 30%;
+  }
+
+  iframe{
+    margin: 40px auto;
+    width: 80%;
+  }
+
 }

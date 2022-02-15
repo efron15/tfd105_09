@@ -5,24 +5,17 @@
     display: block;
     width: 100%;
     border-radius: 20px ;
-
-      /* 輔助線 */
-      /* border-bottom: 1px solid black; */
 }
 
 .w1160{
-    width: 1160px;
+    /* width: 1160px; */
     margin: 0 auto;
-    padding: 50px 0;
-
-    /* 輔助需刪除 */
-    /* height: 600px; */
+    padding: 30px 20px 50px 20px;
 }
 
 button i{
     font-size: 24px;
 }
-
 
 .outline{
     outline: 2px solid black;
@@ -61,18 +54,15 @@ button:hover{
 }
 
 .out121{
-    width: 1200px;
+    /* width: 1200px; */
     margin: 0 auto;
     padding-left: 2px;
 }
 
 .out122{
-    width: 1200px;
     margin: 0 auto;
     padding-left: 2px;
-    /* margin-right: 0; */
 }
-
 
 /* 背景照片區 */
 .BGP_1{
@@ -95,16 +85,12 @@ button:hover{
     background: content;
 }
 
-
-
-
 /* 遮色層 */
 .color06{
     background-color:rgb(118,118,118,0.6);
     border-radius: 20px;
     padding: 2px;
 }
-
 
 /* 順序層 */
 .padding0{

@@ -6,7 +6,7 @@
 }
 
 .halfline{
-    width: 500px;
+    width: 80%;
     /* 改成只有底線 */
     border-bottom: 3px solid white;
     padding-bottom: 20px;
@@ -49,7 +49,7 @@
 
 button{
     background-color: burlywood;
-    width: 100%;  
+    /* width: 1100px;   */
     border-radius: 20px;
     margin: 0 auto;
     align-items: center;
@@ -69,11 +69,11 @@ button:hover{
     margin-left: auto;
 }
 
-/* .w1100{
-    width: 1100px;
+.w1100{
+    /* width: 1100px; */
     margin: 0 auto;
     padding:20px 6px ;
-} */
+}
 
 .w1100 ul{
     list-style-type:upper-roman;
