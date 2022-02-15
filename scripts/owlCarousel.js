@@ -22,6 +22,8 @@ $(".owl-carousel").owlCarousel({
 var dots = $('.owl-dots').css('position', 'absolute').css('bottom', '5px');
 dots.css('left', 'calc(50% - ' + dots.width()/2+'px)');
 
+
+// 不是貓頭鷹
 // 文字輪播
 $('#J_scroll').width($('#J_scroll').width() - $('#J_scroll li:first-child').innerWidth());
 $('#J_scroll').addClass('theanimation');

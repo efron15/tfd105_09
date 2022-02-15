@@ -92,8 +92,7 @@ a {
 }
 
 .lefthd1 {
-  display: flex;
-  width: 500px;
+  display: flex; 
 }
 
 .righthd1 {
@@ -106,7 +105,7 @@ a {
 
 /* 文字輪播 */
 .outer {
-  width: 100%;
+  width: 80%;
   overflow: hidden;
 }
 
@@ -182,7 +181,7 @@ li a {
 }
 
 .rtlogo {
-  width: 600px;
+  width: 50%;
   display: flex;
   position: absolute;
   right: 0;
@@ -224,7 +223,6 @@ li:hover a {
 /* 懸浮按鈕特效 */
 .move_a a:hover {
   background-color: paleturquoise;
-  /* font-size: 40px; */
   margin: 20px 0;
   border-radius: 50%;
 }
@@ -253,8 +251,8 @@ li:hover a {
 }
 
 .right_footer {
-  width: 500px;
-  margin: 10px 0 20px 0;
+  width: 50%;
+  margin: 0px 0 20px 0;
   flex-direction: column;
   color: white;
   position: absolute;
@@ -278,8 +276,8 @@ li:hover a {
   width: 360px;
 }
 
-.width500 {
-  width: 500px;
+.half{
+  width: 50%;
 }
 
 .padding50 {
@@ -363,7 +361,6 @@ li:hover a {
 }
 
 .wrap {
-  /* display: flex; */
   flex-wrap: wrap;
 }
 
@@ -377,4 +374,19 @@ li:hover a {
 /* 避免底層出現 */
 .hide_menu {
   z-index: 2;
+}
+
+/* media screen */
+@media screen and (max-width: 1200px) and (min-width:768px){
+  .out12{
+    width: 100%;
+  }
+
+  .w1100{
+    /* width: 95%; */
+  }
+
+  .city{
+    width: 100%;
+  }
 }

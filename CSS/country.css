@@ -9,13 +9,12 @@
     border-bottom: solid gray;
     position: relative;
     background:linear-gradient(to bottom, none, black);
-
     /* 輔助高 */
     height: 600px;
 }
 
 .city{
-    width: 1200px;
+    /* width: 1200px; */
     margin: 0 auto;
     height: 200px;
 }
@@ -79,54 +78,30 @@
 
 h3{
     text-align: center;
-    margin-top: 50px;
+    margin-top: 30px;
     transition: .8s;
 }
 
 .mid_1:hover h3{
     color: orange;
-    /* font-size: 26px; */
 }
 
 /* 中間部分 */
-
 /* 一區 */
-
-.main1_down img{
-    width: 600px;
-}
-
 .main1_down_right{
     margin: auto 0;
     padding-left: 40px;
 }
 
 /* 二區 */
-
 .main2_left{
     margin:auto 0;
     padding-right: 40px;
 }
 
-.main2 img{
-    width: 600px;
-}
-
-/* 三區 */
-
-.main3_down img{
-    width: 600px;
-}
-
 .main3_down_right{
     margin:auto 0;
     padding-left: 40px;
-}
-
-/* 四區 */
-
-.main_four img{
-    width: 600px;
 }
 
 .main4_left{

@@ -21,13 +21,13 @@
     position: absolute;
     top: 58px;
 }
-
+/* 
 .bigword{
     width: 600px;
     margin-left: 80px;
     position: absolute;
     bottom: 15%;
-}
+} */
 
 .bigword p{
     margin-top: 20px;
@@ -65,7 +65,7 @@
 
 h3{
     text-align: center;
-    margin-top: 50px;
+    margin-top: 30px;
     transition: .8s;
 }
 
