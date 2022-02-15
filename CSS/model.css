@@ -1,376 +1,380 @@
 @import url(./reset.css);
 
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
-body{
-    /* 要更動 */
-    width: 100%;
-    font-size: 16px;
-    font-family:"DFKai-SB";
-    line-height: 1.2;
-    position: relative;
+body {
+  /* 要更動 */
+  width: 100%;
+  font-size: 16px;
+  font-family: "DFKai-SB";
+  line-height: 1.2;
+  position: relative;
 }
 
-h2{
-    font-size: 24px;
-    color: white;
+h2 {
+  font-size: 24px;
+  color: white;
 }
 
-h3{
-    font-size: 18px;
-    color: white;
+h3 {
+  font-size: 18px;
+  color: white;
 }
 
-h4{
-    font-size: 48px;
-    color: white;
+h4 {
+  font-size: 48px;
+  color: white;
 }
 
-h5{
-    font-size: 36px;
-    color:white;
+h5 {
+  font-size: 36px;
+  color: white;
 }
 
-h6{
-    font-size: 64px;
-    color: white;
+h6 {
+  font-size: 64px;
+  color: white;
 }
 
-p{
-    color: white;
-    display: inline-block;
+p {
+  color: white;
+  display: inline-block;
 }
 
-i{
-    margin:0 10px 0 10px;
-    align-items: center;
+i {
+  margin: 0 10px 0 10px;
+  align-items: center;
 }
 
-a{
-    display: block;
-    text-decoration: none;
-    color: white;
+a {
+  display: block;
+  text-decoration: none;
+  color: white;
 }
 
 /* 需調整 */
-.menu{
-    position: sticky;
-    top: 0;
+.menu {
+  position: sticky;
+  top: 0;
 }
 
-.menu ul{
-    display: flex;
-    
+.menu ul {
+  display: flex;
 }
 
-.menu li{
-    display:inline-block;
-    flex-grow: 1;   
-    font-size: 18px;
-    padding: 10px 0 10px 0;
+.menu li {
+  display: inline-block;
+  flex-grow: 1;
+  font-size: 18px;
+  padding: 10px 0 10px 0;
 }
 
-.out19{
-    width:100%;
+.out19 {
+  width: 100%;
 }
 
-.out12{
-    width: 1200px;
-    margin:0 auto;
-    padding: 6px;
-    position: relative;
+.out12 {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 6px;
+  position: relative;
 }
 
-.one{
-    background-color:rgb(118,118,118,0.6);
+.one {
+  background-color: rgb(118, 118, 118, 0.6);
 }
 
-.logo img{
-    display: inline;
-    width: 50px;
+.logo img {
+  display: inline;
+  width: 50px;
 }
 
-.lefthd1{
-    display: flex;
-    width: 500px;
+.lefthd1 {
+  display: flex;
+  width: 500px;
 }
 
-.righthd1{
-    display: flex; 
-    position: absolute;
-    right: 6px;
-    top: 50%;
-    transform: translate(0%, -50%); 
+.righthd1 {
+  display: flex;
+  position: absolute;
+  right: 6px;
+  top: 50%;
+  transform: translate(0%, -50%);
 }
 
 /* 文字輪播 */
-.outer{
-    width: 250px;
-    height: 30px;
-    overflow: hidden;
-    }
+.outer {
+  width: 100%;
+  overflow: hidden;
+}
 
-    .outer ul{
-    display:inline-block;
-    height: 80px;
-    -webkit-transform: translate3d(0, 0, 0); /* 3d渲染，開啟硬體加速 */
-    transform: translate3d(0, 0, 0);
-    font-size: 0;  /* 使inline-block無預設間距 */
-    white-space: nowrap; /* 超出不折行 */
-    }
+.outer ul {
+  display: inline-block;
+  -webkit-transform: translate3d(0, 0, 0); /* 3d渲染，開啟硬體加速 */
+  transform: translate3d(0, 0, 0);
+  font-size: 0; /* 使inline-block無預設間距 */
+  white-space: nowrap; /* 超出不折行 */
+}
 
-    .outer ul li{
-    display: inline-block;
-    padding-right: 50px;
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-    font-size:16px;
-    color: aliceblue;
-    }
+.outer ul li {
+  display: inline-block;
+  padding-right: 50px;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  font-size: 16px;
+  color: aliceblue;
+}
 
-    .theanimation{
-    animation:theanimation 20s infinite linear;
-    -webkit-animation:theanimation 20s infinite linear;
-    }
+.theanimation {
+  animation: theanimation 25s infinite linear;
+  -webkit-animation: theanimation 25s infinite linear;
+}
 
-    @keyframes theanimation{
-        from {
-            transform:translateX(0%);
-        } 
-        to {
-            transform:translateX(-100%);
-        } 
-    }
-    @-webkit-keyframes theanimation{ 
-        from {
-            -webkit-transform:translateX(0%);
-        } 
-        to {
-            -webkit-transform:translateX(-100%);
-        }
-    } 
+@keyframes theanimation {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+@-webkit-keyframes theanimation {
+  from {
+    -webkit-transform: translateX(0%);
+  }
+  to {
+    -webkit-transform: translateX(-100%);
+  }
+}
+
+#box {
+  overflow: hidden;
+  width: 100px;
+  height: 50px;
+}
+.centerBox > ul {
+  margin: 0 auto;
+  padding: 0;
+}
 
 /* 頂部第一塊 */
-.fas fa-user{
-    font-size: 24px;
+.fas fa-user {
+  font-size: 24px;
 }
 
-.top3{
-    border-bottom: gray 1px solid;
+.top3 {
+  border-bottom: gray 1px solid;
 }
 
-.logogo{
-    width: 250px;
+.logogo {
+  width: 250px;
 }
 
-li a{
-    text-align: center;
-    transition: .8s;
+li a {
+  text-align: center;
+  transition: 0.8s;
 }
 
-.logogo span{
-    font-size: 24px;
+.logogo span {
+  font-size: 24px;
 }
 
-.rtlogo{
-    width: 600px;
-    display: flex;
-    position: absolute;
-    right: 0;
-    top: 50%;
-    transform: translate(0%, -50%);
-    font-size: 18px;
-    text-align: center;
-    justify-content: flex-end;
-    /* 輔助背景色 */
-    /* background-color: #fff; */
+.rtlogo {
+  width: 600px;
+  display: flex;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(0%, -50%);
+  font-size: 18px;
+  text-align: center;
+  justify-content: flex-end;
 }
 
-.rtlogo span{
-    border-left: 2px black solid;
-    padding-left: 8px;
+.rtlogo span {
+  border-left: 2px black solid;
+  padding-left: 8px;
 }
 
 /* 懸浮按鈕區 */
-.move_a{
-    position: fixed;
-    bottom: 120px;
-    right: 5px;
-    z-index: 1;
-    background-color: orange;
-    border-radius: 10px;
+.move_a {
+  position: fixed;
+  bottom: 120px;
+  right: 5px;
+  z-index: 1;
+  background-color: orange;
+  border-radius: 10px;
 }
 
-.move_a a{
-    font-size: 25px;
-    padding: 7px 5px 5px 5px;
-    margin: 20px 0 ;
-    transition: .8s;
+.move_a a {
+  font-size: 25px;
+  padding: 7px 5px 5px 5px;
+  margin: 20px 0;
+  transition: 0.8s;
 }
 
 /* 效果欄位 */
 /* 目錄欄位效果 */
-li:hover a{
-    color: #FFBB4F;
-    /* background-color: orange; */
+li:hover a {
+  color: #ffbb4f;
 }
 
 /* 懸浮按鈕特效 */
-.move_a a:hover{
-    background-color: paleturquoise;
-    /* font-size: 40px; */
-    margin: 20px 0;
-    border-radius: 50%;
+.move_a a:hover {
+  background-color: paleturquoise;
+  /* font-size: 40px; */
+  margin: 20px 0;
+  border-radius: 50%;
 }
 
 /* footer */
 
-.ft{
-    display: flex;
-    padding: 20px;
-    position: relative;
+.ft {
+  display: flex;
+  padding: 20px;
+  position: relative;
 }
 
-.left_footer{
-    display: flex;
-    margin:20px;
-    align-items: flex-end;
+.left_footer {
+  display: flex;
+  margin: 20px;
+  align-items: flex-end;
 }
 
-.ft img{
-    display: inline-block;
-    width: 50px;
+.ft img {
+  display: inline-block;
+  width: 50px;
 }
 
-.ft h2{
-    padding-left: 20px ;
+.ft h2 {
+  padding-left: 20px;
 }
 
-.right_footer{
-    width: 500px;
-    margin: 10px 0 20px 0 ;
-    flex-direction: column;
-    color: white;
-    position: absolute;
-    right: 0;
+.right_footer {
+  width: 500px;
+  margin: 10px 0 20px 0;
+  flex-direction: column;
+  color: white;
+  position: absolute;
+  right: 0;
 }
 
 /* 指令效果塊 */
 
-.box-shadow{
-    box-shadow: black 12px 11px 10px 5px;
-    border-radius: 8px;
+.box-shadow {
+  box-shadow: black 12px 11px 10px 5px;
+  border-radius: 8px;
 }
 
-.w1100{
-    width: 1100px;
-    margin: 0 auto;
-    padding:20px 6px ;
+.w1100 {
+  width: 1100px;
+  margin: 0 auto;
+  padding: 20px 6px;
 }
 
-.w360{
-    width: 360px;
+.w360 {
+  width: 360px;
 }
 
-.width500{
-    width: 500px;
+.width500 {
+  width: 500px;
 }
 
-.padding50{
-    padding: 50px;
+.padding50 {
+  padding: 50px;
 }
 
-.padding20{
-    padding: 20px;
+.padding20 {
+  padding: 20px;
 }
 
-.displayflex{
-    display: flex;
+.displayflex {
+  display: flex;
 }
 
-.margin-bottom30px{
-    margin-bottom: 30px;
+.margin-bottom30px {
+  margin-bottom: 30px;
 }
 
-.text-aligncenter{
-    text-align: center;
+.text-aligncenter {
+  text-align: center;
 }
 
-.align-items_center{
-    align-items: center;
+.align-items_center {
+  align-items: center;
 }
 
-.flex-grow{
-    flex-grow: 1
+.flex-grow {
+  flex-grow: 1;
 }
 
-.displayblock{
-    display: block;
+.displayblock {
+  display: block;
 }
 
-.BGC_A{
-    background-color: rgb(8, 32, 45);
+.BGC_A {
+  background-color: rgb(8, 32, 45);
 }
 
-.BGC_B{
-    background-color: rgb(15, 45, 60);
+.BGC_B {
+  background-color: rgb(15, 45, 60);
 }
 
-.BGC_C{
-    background-color: rgb(65, 59, 55);
+.BGC_C {
+  background-color: rgb(65, 59, 55);
 }
 
-.BGC_D{
-    background-color: #5A1502 ;
+.BGC_D {
+  background-color: #5a1502;
 }
 
-.BGC_E{
-    background-color: #9C2800;
+.BGC_E {
+  background-color: #9c2800;
 }
 
-.BGC_F{
-    background-color: #FFBB4F;
+.BGC_F {
+  background-color: #ffbb4f;
 }
 
-.BGC_X{
-    background-color:rgba(247, 234, 225);
+.BGC_X {
+  background-color: rgba(247, 234, 225);
 }
 
-.displayinline-block{
-    display: inline-block;
+.displayinline-block {
+  display: inline-block;
 }
 
-.margin0{
-    margin: 0 auto;
+.margin0 {
+  margin: 0 auto;
 }
 
-.margin-left{
-    margin-left: auto;
+.margin-left {
+  margin-left: auto;
 }
 
-.news{
-    color: #FFBB4F;
+.news {
+  color: #ffbb4f;
 }
 
-.none{
-    display: none;
+.none {
+  display: none;
 }
 
-.wrap{
-    /* display: flex; */
-    flex-wrap: wrap;
+.wrap {
+  /* display: flex; */
+  flex-wrap: wrap;
 }
 
-.sticky{
-position: -webkit-sticky;
-position: sticky;
-top: 0;
-z-index: 1;
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 /* 避免底層出現 */
-.hide_menu{
-    z-index: 2;
+.hide_menu {
+  z-index: 2;
 }
