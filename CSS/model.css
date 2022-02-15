@@ -105,8 +105,53 @@ a{
     transform: translate(0%, -50%); 
 }
 
+/* 文字輪播 */
+.outer{
+    width: 250px;
+    height: 30px;
+    overflow: hidden;
+    }
 
-/* 個別模塊 */
+    .outer ul{
+    display:inline-block;
+    height: 80px;
+    -webkit-transform: translate3d(0, 0, 0); /* 3d渲染，開啟硬體加速 */
+    transform: translate3d(0, 0, 0);
+    font-size: 0;  /* 使inline-block無預設間距 */
+    white-space: nowrap; /* 超出不折行 */
+    }
+
+    .outer ul li{
+    display: inline-block;
+    padding-right: 50px;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    font-size:16px;
+    color: aliceblue;
+    }
+
+    .theanimation{
+    animation:theanimation 20s infinite linear;
+    -webkit-animation:theanimation 20s infinite linear;
+    }
+
+    @keyframes theanimation{
+        from {
+            transform:translateX(0%);
+        } 
+        to {
+            transform:translateX(-100%);
+        } 
+    }
+    @-webkit-keyframes theanimation{ 
+        from {
+            -webkit-transform:translateX(0%);
+        } 
+        to {
+            -webkit-transform:translateX(-100%);
+        }
+    } 
+
 /* 頂部第一塊 */
 .fas fa-user{
     font-size: 24px;
