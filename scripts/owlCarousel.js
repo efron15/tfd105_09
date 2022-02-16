@@ -45,5 +45,19 @@ $("#two").owlCarousel({
     }
 });
 
+// 文字輪播
+$("#three").owlCarousel({
+    loop: true, // 循環播放
+    margin: 10, // 外距 10px
+    nav: false, // 顯示點點
+    autoplay: true, // 自動輪播
+    autoplaySpeed: 1000,
+    autoplayTimeout: 1000, // 切換時間
+    autoplayHoverPause: true, // 滑鼠經過時暫停
+    autoplayHoverPause:true,
+    animatOut:'slideOutUp',
+    animareIn:'slideOutUp'
+});
 
-
+var dots = $('.owl-dots').css('position', 'absolute').css('right', '10px');
+dots.css('top', 'calc(130% - ' + dots.width()/2+'px)');
