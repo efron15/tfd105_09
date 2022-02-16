@@ -27,10 +27,10 @@ dots.css('left', 'calc(50% - ' + dots.width()/2+'px)');
 $("#two").owlCarousel({
     loop: true, // 循環播放
     margin: 10, // 外距 10px
-    nav: true, // 顯示點點
+    nav: false, // 顯示點點
     autoplay: true, // 自動輪播
     autoplaySpeed: 1000,
-    autoplayTimeout: 2000, // 切換時間
+    autoplayTimeout: 4000, // 切換時間
     autoplayHoverPause: true, // 滑鼠經過時暫停
     responsive: {
         0: {
@@ -47,7 +47,3 @@ $("#two").owlCarousel({
 
 
 
-// 不是貓頭鷹
-// 文字輪播
-$('#J_scroll').width($('#J_scroll').width() - $('#J_scroll li:first-child').innerWidth());
-$('#J_scroll').addClass('theanimation');

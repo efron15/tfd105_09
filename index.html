@@ -14,8 +14,11 @@
     <!-- JQ -->
     <script src="scripts/jquery-3.4.0.js"></script>
     <!-- owl.carousel -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"></link>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"></link>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    </link>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    </link>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <title>VA Airline</title>
 </head>
@@ -101,10 +104,6 @@
         </div>
         <!-- 選單列表結尾 -->
 
-        <!-- <div class="bigword">
-            <h6>學會享受人生</h6>
-            <h3>放下工作的繁忙走進大自然,為了自己添加更多生命的色彩</h3>
-        </div> -->
     </div>
     <!-- 背景圖層 -->
 
@@ -113,13 +112,13 @@
         <h2>探索景點</h2>
         <div class="midin1 out12">
             <div class="owl-carousel owl-theme owl_city" id="two">
-                <div class="item"> 
+                <div class="item">
                     <a href="./country.html" class="mid_1">
                         <img src="./pic/taipeiS.jpg" alt="">
                         <h3>台北</h3>
                     </a>
                 </div>
-                <div class="item"> 
+                <div class="item">
                     <a href="#" class="mid_1">
                         <img src="./pic/bkkS.jpg" alt="">
                         <h3>曼谷</h3>
@@ -139,59 +138,17 @@
                 </div>
                 <div class="item">
                     <a href="#" class="mid_1">
-                        <img src="./pic/JPs.jpg" alt="">
-                        <h3>大阪</h3>
+                        <img src="./pic/penang.jpg" alt="">
+                        <h3>檳城</h3>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="#" class="mid_1">
+                        <img src="./pic/cebu.jpg" alt="">
+                        <h3>霧宿</h3>
                     </a>
                 </div>
             </div>
-            <!-- <a href="./country.html" class="mid_1">
-                <img src="./pic/taipeiS.jpg" alt="">
-                <h3>台北</h3>
-            </a>
-            <a href="#" class="mid_1">
-                <img src="./pic/bkkS.jpg" alt="">
-                <h3>曼谷</h3>
-            </a>
-            <a href="#" class="mid_1">
-                <img src="./pic/VNs.jpg" alt="">
-                <h3>胡志明</h3>
-            </a>
-            <a href="#" class="mid_1">
-                <img src="./pic/JPs.jpg" alt="">
-                <h3>大阪</h3>
-            </a> -->
-            <!-- <div class="owl-carouse owl-theme owl_city displayflex">
-                <div class="item"> 
-                    <a href="./country.html" class="mid_1">
-                        <img src="./pic/taipeiS.jpg" alt="">
-                        <h3>台北</h3>
-                    </a>
-                </div>
-                <div class="item"> 
-                    <a href="#" class="mid_1">
-                        <img src="./pic/bkkS.jpg" alt="">
-                        <h3>曼谷</h3>
-                    </a>
-                </div>
-                <div class="item">
-                    <a href="#" class="mid_1">
-                        <img src="./pic/VNs.jpg" alt="">
-                        <h3>胡志明</h3>
-                    </a>
-                </div>
-                <div class="item">
-                    <a href="#" class="mid_1">
-                        <img src="./pic/JPs.jpg" alt="">
-                        <h3>大阪</h3>
-                    </a>
-                </div>
-                <div class="item">
-                    <a href="#" class="mid_1">
-                        <img src="./pic/JPs.jpg" alt="">
-                        <h3>大阪</h3>
-                    </a>
-                </div>
-            </div> -->
         </div>
     </div>
     <!-- 中間內容，探索景點 -->
@@ -248,6 +205,13 @@
     <script src="./scripts/scroll.js"></script>
     <!-- 首頁大圖輪播 -->
     <script src="./scripts/owlCarousel.js"></script>
+    <!-- 文字輪播 -->
+    <script>
+        // 不是貓頭鷹
+        // 文字輪播
+        $('#J_scroll').width($('#J_scroll').width() - $('#J_scroll li:first-child').innerWidth());
+        $('#J_scroll').addClass('theanimation');
+    </script>
 </body>
 
 </html>

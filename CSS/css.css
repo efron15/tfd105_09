@@ -21,13 +21,6 @@
     position: absolute;
     top: 58px;
 }
-/* 
-.bigword{
-    width: 600px;
-    margin-left: 80px;
-    position: absolute;
-    bottom: 15%;
-} */
 
 .bigword p{
     margin-top: 20px;
@@ -58,7 +51,7 @@
 
 .mid_1 img{
     border-radius: 20px;
-    background-size: contain;
+    background-size: cover;
     height: 250px;
     width: 200px;
 }
