@@ -10,6 +10,13 @@
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <script src="scripts/jquery-3.4.0.js"></script>
+     <!-- owl.carousel -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    </link>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    </link>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <title>Country</title>
 </head>
 
@@ -152,29 +159,52 @@
 
     </main>
 
-    <!-- 探索景點 -->
-    <div class="mid1 BGC_A">
+     <!-- 中間內容，探索景點 -->
+     <div class="mid1 BGC_A">
         <h2>探索景點</h2>
         <div class="midin1 out12">
-            <a href="./country.html" class="mid_1">
-                <img src="./pic/taipeiS.jpg" alt="">
-                <h3>台北</h3>
-            </a>
-            <a href="#" class="mid_1">
-                <img src="./pic/bkkS.jpg" alt="">
-                <h3>曼谷</h3>
-            </a>
-            <a href="#" class="mid_1">
-                <img src="./pic/VNs.jpg" alt="">
-                <h3>胡志明</h3>
-            </a>
-            <a href="#" class="mid_1">
-                <img src="./pic/JPs.jpg" alt="">
-                <h3>大阪</h3>
-            </a>
+            <div class="owl-carousel owl-theme owl_city" id="two">
+                <div class="item">
+                    <a href="./country.html" class="mid_1">
+                        <img src="./pic/taipeiS.jpg" alt="">
+                        <h3>台北</h3>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="#" class="mid_1">
+                        <img src="./pic/bkkS.jpg" alt="">
+                        <h3>曼谷</h3>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="#" class="mid_1">
+                        <img src="./pic/VNs.jpg" alt="">
+                        <h3>胡志明</h3>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="#" class="mid_1">
+                        <img src="./pic/JPs.jpg" alt="">
+                        <h3>大阪</h3>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="#" class="mid_1">
+                        <img src="./pic/penang.jpg" alt="">
+                        <h3>檳城</h3>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="#" class="mid_1">
+                        <img src="./pic/cebu.jpg" alt="">
+                        <h3>霧宿</h3>
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
-    <!-- 探索景點結束 -->
+    <!-- 中間內容，探索景點 -->
+
 
     <!-- footer -->
     <footer class="out19 ft BGC_C">
@@ -203,6 +233,8 @@
 
     <!-- 隱藏選單出現 -->
     <Script src="./scripts/scroll.js"></Script>
+        <!-- 輪播 -->
+        <script src="./scripts/owlCarousel.js"></script>
 </body>
 
 </html>
