@@ -163,6 +163,10 @@ li a {
   transition: 0.8s;
 }
 
+.logogo{
+  width: 200px;
+}
+
 .logogo span {
   font-size: 24px;
 }
@@ -420,10 +424,14 @@ li:hover a {
     padding: 0;
   }
 
+  h6{
+    font-size: 50px;
+  }
+
 }
 
 @media (max-width:767.98px){
-  .CP_main{
+  .computer{
     opacity: 0;
     display: none;
   }
