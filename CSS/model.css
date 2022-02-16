@@ -4,16 +4,17 @@
   box-sizing: border-box;
 }
 
-body {
+html, body {
   /* 要更動 */
   width: 100%;
   font-size: 16px;
-  font-family: "DFKai-SB";
+  font-family: "DFKai-SB" !important;
   line-height: 1.2;
   position: relative;
 }
 
 h2 {
+  font-family: "DFKai-SB" !important;
   font-size: 24px;
   color: white;
 }
@@ -157,10 +158,6 @@ a {
   border-bottom: gray 1px solid;
 }
 
-.logogo {
-  /* width: 250px; */
-}
-
 li a {
   text-align: center;
   transition: 0.8s;
@@ -218,7 +215,6 @@ li:hover a {
 }
 
 /* footer */
-
 .ft {
   display: flex;
   padding: 20px;
@@ -250,7 +246,6 @@ li:hover a {
 }
 
 /* 指令效果塊 */
-
 .box-shadow {
   box-shadow: black 12px 11px 10px 5px;
   border-radius: 8px;
@@ -267,7 +262,7 @@ li:hover a {
 }
 
 .w360 {
-  width: 360px;
+  width: 30%;
 }
 
 .half{
@@ -413,4 +408,15 @@ li:hover a {
     width: 80%;
   }
 
+  div.no1{
+    order: none;
+  }
+
+  div.no2{
+    order: none;
+  }
+
+  div.no3{
+    order: none;
+  } 
 }
