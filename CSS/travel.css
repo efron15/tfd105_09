@@ -112,8 +112,6 @@
 }
 
 /* 出發.目的地 */
-
-
 /* 選擇航向 */
 .w240 h2{
     margin:0 10px 0 20px ;
@@ -144,4 +142,26 @@
 /* 下方微調 */
 .w200 h3{
     color: #000;
+}
+
+
+
+
+/* media screen */
+@media screen and (max-width: 1200px) and (min-width:768px){
+    .w150{
+        margin-right: 60px;
+    }
+
+    .w480{
+        margin: 0 5px;
+    }
+
+    .w480 h2{
+        margin-left: 5px;
+    }
+
+    .date{
+        margin-right: 20px;
+    }
 }

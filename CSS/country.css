@@ -1,4 +1,4 @@
-@import url(./reset.css);
+
 @import url(./model.css);
 
 .bigbg{
@@ -46,7 +46,7 @@
 /* 旅遊景點 */
 .mid1{
     width: 100%;
-    padding: 50px;
+    padding: 50px 0;
     border-bottom: gray 2px solid;
 }
 
@@ -63,15 +63,16 @@
 
 .mid_1{
     width: 200px;
+    display: block;
 }
 
-.midin1 a{
+/* .midin1 a{
    display: block;
-}
+} */
 
 .mid_1 img{
     border-radius: 20px;
-    background-size: contain;
+    background-size: cover;
     height: 250px;
     width: 200px;
 }
