@@ -1,5 +1,5 @@
 // 大圖輪播
-$(".owl-carousel").owlCarousel({
+$("#one").owlCarousel({
     loop: true, // 循環播放
     margin: 0, // 外距 10px
     nav: false, // 顯示點點
@@ -24,9 +24,9 @@ var dots = $('.owl-dots').css('position', 'absolute').css('bottom', '5px');
 dots.css('left', 'calc(50% - ' + dots.width()/2+'px)');
 
 // 下圖輪播
-$(".owl_city").owlCarousel({
+$("#two").owlCarousel({
     loop: true, // 循環播放
-    margin: 0, // 外距 10px
+    margin: 10, // 外距 10px
     nav: true, // 顯示點點
     autoplay: true, // 自動輪播
     autoplaySpeed: 1000,
@@ -45,8 +45,6 @@ $(".owl_city").owlCarousel({
     }
 });
 
-var dots = $('.owl-dots').css('position', 'absolute').css('bottom', '5px');
-dots.css('left', 'calc(50% - ' + dots.width()/2+'px)');
 
 
 // 不是貓頭鷹
