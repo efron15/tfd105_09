@@ -105,48 +105,19 @@ a {
 }
 
 /* 文字輪播 */
-.outer {
-  width: 80%;
-  overflow: hidden;
+.tipsList{
+  height:16px;
+  text-align:left;
+  overflow:hidden;
+  color: white;          
 }
-
-.outer ul {
-  display: inline-block;
-  -webkit-transform: translate3d(0, 0, 0); /* 3d渲染，開啟硬體加速 */
-  transform: translate3d(0, 0, 0);
-  font-size: 0; /* 使inline-block無預設間距 */
-  white-space: nowrap; /* 超出不折行 */
+.tipsList ul{
+  position:relative;
 }
-
-.outer ul li {
-  display: inline-block;
-  padding-right: 50px;
-  -webkit-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
-  font-size: 16px;
-  color: aliceblue;
-}
-
-.theanimation {
-  animation: theanimation 25s infinite linear;
-  -webkit-animation: theanimation 25s infinite linear;
-}
-
-@keyframes theanimation {
-  from {
-    transform: translateX(0%);
-  }
-  to {
-    transform: translateX(-100%);
-  }
-}
-@-webkit-keyframes theanimation {
-  from {
-    -webkit-transform: translateX(0%);
-  }
-  to {
-    -webkit-transform: translateX(-100%);
-  }
+.tipsList ul li{
+  list-style:none;
+  position:absolute;
+  width:100%;
 }
 
 /* 頂部第一塊 */
