@@ -46,18 +46,22 @@ $("#two").owlCarousel({
 });
 
 // 文字輪播
-$("#three").owlCarousel({
-    loop: true, // 循環播放
-    margin: 10, // 外距 10px
-    nav: false, // 顯示點點
-    autoplay: true, // 自動輪播
-    autoplaySpeed: 1000,
-    autoplayTimeout: 1000, // 切換時間
-    autoplayHoverPause: true, // 滑鼠經過時暫停
-    autoplayHoverPause:true,
-    animatOut:'slideOutUp',
-    animareIn:'slideOutUp'
+var h = $(".tipsList").height();
+$(".tipsList ul li").each(function(){
+    $(this).css({top:$(this).index() * h + 'px'});
 });
 
-var dots = $('.owl-dots').css('position', 'absolute').css('right', '10px');
-dots.css('top', 'calc(130% - ' + dots.width()/2+'px)');
+setInterval(ctxtslide,3000);
+function ctxtslide() {
+    var disapear = $(".tipsList ul li").first();
+    var clone = $(".tipsList ul li").first().clone();
+    clone.css({top:($(".tipsList ul li").length*h)+"px"});
+    $(".tipsList ul").append(clone);
+    $(".tipsList ul li").each(function(){
+        var top = parseInt($(this).css('top'));
+        top -= h;
+        $(this).animate({"top":top+'px'},1000,function () {
+            disapear.remove();
+        });
+    });
+}
