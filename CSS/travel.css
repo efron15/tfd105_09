@@ -1,4 +1,3 @@
-@import url(./reset.css);
 @import url(./model.css);
 
 .ooo{
@@ -16,7 +15,6 @@
 }
 
 .w1000{
-    /* width: 1000px; */
     margin: 50px auto;
     display: flex;
     margin-bottom: 12px;
@@ -24,15 +22,12 @@
 }
 
 .w1000h210{
-    /* width: 1000px; */
     height: 280px;
-    /* display: flex; */
     margin: 50px auto;
     margin-bottom: 12px;
 }
 
 .w960{
-    /* width: 960px; */
     margin: 30px;
     border: #000 1px solid;
     border-radius: 20px;
@@ -44,7 +39,6 @@
 }
 
 .w900{
-    /* width: 900px;  */
     margin: 0 auto;
     margin-top: 0px;
     padding:10px;
@@ -138,13 +132,10 @@
     margin:0 5px;
 }
 
-
 /* 下方微調 */
 .w200 h3{
     color: #000;
 }
-
-
 
 
 /* media screen */
