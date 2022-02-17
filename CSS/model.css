@@ -252,6 +252,10 @@ li:hover a {
   padding: 20px;
 }
 
+.padding0{
+  padding: 0;
+}
+
 .displayflex {
   display: flex;
 }

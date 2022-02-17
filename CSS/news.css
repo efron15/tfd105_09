@@ -1,10 +1,6 @@
 @import url(./reset.css);
 @import url(./model.css);
 
-.BGC_B .out12{
-    padding-bottom: 0;
-}
-
 .halfline{
     width: 80%;
     /* 改成只有底線 */
