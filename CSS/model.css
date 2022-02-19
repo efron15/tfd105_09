@@ -320,6 +320,14 @@ li:hover a {
   margin-left: auto;
 }
 
+.PT20{
+  padding-top: 20px;
+}
+
+.PB20{
+  padding-bottom: 20px;
+}
+
 .news {
   color: #ffbb4f;
 }
@@ -409,6 +417,10 @@ li:hover a {
   .computer{
     opacity: 0;
     display: none;
+  }
+
+  .out12{
+    width: 100%;
   }
 
 }
