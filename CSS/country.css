@@ -3,8 +3,8 @@
 
 .bigbg{
     background-image: url(../pic/taipeiBig.jpg);
-    background-size: contain;
-    background-size: cover;
+    /* background-size: contain; */
+    /* background-size: cover; */
     display: block;
     width: 100%;
     border-bottom: solid gray;
