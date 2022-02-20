@@ -328,6 +328,14 @@ li:hover a {
   padding-bottom: 20px;
 }
 
+.FS24{
+  font-size: 24px;
+}
+
+.FS20{
+  font-size: 20px;
+}
+
 .news {
   color: #ffbb4f;
 }
@@ -414,6 +422,10 @@ li:hover a {
 }
 
 @media (max-width:767.98px){
+  .phone_block{
+    display: block;
+  }
+
   .computer{
     opacity: 0;
     display: none;
