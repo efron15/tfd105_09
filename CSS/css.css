@@ -120,3 +120,10 @@ h3{
 
 
 
+/* RWD */
+@media (max-width:767.98px){
+    .big_area{
+        width: 90%;
+    }
+  
+}
