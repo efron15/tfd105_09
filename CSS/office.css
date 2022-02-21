@@ -1,125 +1,156 @@
 @import url(./model.css);
 
-.buttonout{
-    display: block;
-    width: 100%;
-    border-radius: 20px ;
+.buttonout {
+  display: block;
+  width: 100%;
+  border-radius: 20px;
 }
 
-.w1160{
-    /* width: 1160px; */
-    margin: 0 auto;
-    padding: 30px 20px 50px 20px;
+.w1160 {
+  /* width: 1160px; */
+  margin: 0 auto;
+  padding: 30px 20px 50px 20px;
 }
 
-button i{
-    font-size: 24px;
+button i {
+  font-size: 24px;
 }
 
-.outline{
-    outline: 2px solid black;
-    border-radius: 20px ;
-    margin-bottom: 30px;
+.outline {
+  outline: 2px solid black;
+  border-radius: 20px;
+  margin-bottom: 30px;
 }
 
-button{
-    background-color: #9c2800;
-    width: 45%;
-    border-radius: 20px;
-    align-items: center;
-    border: none;
-    transition: .7s;
-    padding: 10px;
-    outline: 1px black solid;
-    justify-content: center;
-    margin: 10px ;
+button {
+  background-color: #9c2800;
+  width: 45%;
+  border-radius: 20px;
+  align-items: center;
+  border: none;
+  transition: 0.7s;
+  padding: 10px;
+  outline: 1px black solid;
+  justify-content: center;
+  margin: 10px;
 }
 
-button:hover{
-    cursor: pointer;
-    color:#ffbb4f;
+button:hover {
+  cursor: pointer;
+  color: #ffbb4f;
 }
 
-.w360 h2{
-    margin: 10px 0;
+.w360 h2 {
+  margin: 10px 0;
 }
 
-.margin-left{
-    margin-left: auto;
+.margin-left {
+  margin-left: auto;
 }
 
-.w360 h3{
-    margin: 20px;
+.w360 h3 {
+  margin: 20px;
 }
 
-.out121{
-    /* width: 1200px; */
-    margin: 0 auto;
-    padding-left: 2px;
+.out121 {
+  /* width: 1200px; */
+  margin: 0 auto;
+  padding-left: 2px;
 }
 
-.out122{
-    margin: 0 auto;
-    padding-left: 2px;
+.out122 {
+  margin: 0 auto;
+  padding-left: 2px;
 }
 
 /* 背景照片區 */
-.BGP_1{
-    background-image: url(../pic/TaiwanBG.jpg);
-    background: content;
+.BGP_1 {
+  background-image: url(../pic/TaiwanBG.jpg);
+  background: content;
 }
 
-.BGP_2{
-    background-image: url(../pic/ThailandBG.jpg);
-    background: content;
+.BGP_2 {
+  background-image: url(../pic/ThailandBG.jpg);
+  background: content;
 }
 
-.BGP_3{
-    background-image: url(../pic/JapanBG.jpg);
-    background: content;
+.BGP_3 {
+  background-image: url(../pic/JapanBG.jpg);
+  background: content;
 }
 
-.BGP_4{
-    background-image: url(../pic/MacaoBG.jpg);
-    background: content;
+.BGP_4 {
+  background-image: url(../pic/MacaoBG.jpg);
+  background: content;
 }
 
 /* 遮色層 */
-.color06{
-    background-color:rgb(118,118,118,0.6);
-    border-radius: 20px;
-    padding: 2px;
+.color06 {
+  background-color: rgb(118, 118, 118, 0.6);
+  border-radius: 20px;
+  padding: 2px;
 }
 
 /* 順序層 */
-.padding0{
-    padding: 0;
+.padding0 {
+  padding: 0;
 }
 
-.no1{
-    order: 3;
+.no1 {
+  order: 3;
 }
 
-.no2{
-    order: 2;
+.no2 {
+  order: 2;
 }
 
-.no3{
+.no3 {
+  order: 1;
+}
+
+@media screen and (max-width: 1200px) and (min-width: 768px) {
+  .no1 {
     order: 1;
+  }
+
+  .no2 {
+    order: 2;
+  }
+
+  .no3 {
+    order: 3;
+  }
 }
 
-@media screen and (max-width: 1200px) and (min-width:768px){
+@media (max-width: 767.98px) {
+  .w1200 {
+    width: 100%;
+  }
 
-    .no1{
-        order: 1;
-      }
-    
-      .no2{
-        order: 2;
-      }
-    
-      .no3{
-        order: 3;
-      }
-      
+  .w1160 {
+    padding: 5px 10px;
+  }
+
+  .w360 {
+    width: 35%;
+  }
+
+  .w360 h2 {
+  }
+
+  .w360 h3 {
+    margin: 5px;
+  }
+
+  .no1 {
+    order: 1;
+  }
+
+  .no2 {
+    order: 2;
+  }
+
+  .no3 {
+    order: 3;
+  }
 }
