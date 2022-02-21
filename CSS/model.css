@@ -439,4 +439,16 @@ li:hover a {
     width: 100%;
   }
 
+  .ft{
+    padding: 10px 0 60px 0;
+  }
+
+  .left_footer{
+    margin-left: 5px;
+  }
+
+  .right_footer{
+    font-size: 14px;
+  }
+
 }
