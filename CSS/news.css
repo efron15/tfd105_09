@@ -45,7 +45,6 @@
 
 button{
     background-color: burlywood;
-    /* width: 1100px;   */
     border-radius: 20px;
     margin: 0 auto;
     align-items: center;
@@ -66,7 +65,6 @@ button:hover{
 }
 
 .w1100{
-    /* width: 1100px; */
     margin: 0 auto;
     padding:20px 6px ;
 }
@@ -115,4 +113,11 @@ button:hover{
 
 .news_notice{
     display: none;
+}
+
+@media (max-width:767.98px){
+    .w1100{
+        width: 100%;
+    }
+
 }
