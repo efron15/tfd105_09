@@ -160,4 +160,12 @@ input[type="checkbox"]{
         border-radius:40px ;
     }
 
+    .padding50{
+        padding: 10px;
+    }
+
+    .remember{
+        width: 100%;
+    }
+
 }
