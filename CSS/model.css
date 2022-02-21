@@ -355,6 +355,10 @@ li:hover a {
   z-index: 1;
 }
 
+.z3{
+  z-index: 3;
+}
+
 /* 避免底層出現 */
 .hide_menu {
   z-index: 2;
