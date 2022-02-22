@@ -22,7 +22,7 @@ button i {
   margin-bottom: 30px;
 }
 
-button {
+ .buttonout button {
   background-color: #9c2800;
   width: 45%;
   border-radius: 20px;
@@ -32,7 +32,7 @@ button {
   padding: 10px;
   outline: 1px black solid;
   justify-content: center;
-  margin: 10px;
+  /* margin: 10px 0; */
 }
 
 button:hover {
@@ -44,9 +44,6 @@ button:hover {
   margin: 10px 0;
 }
 
-.margin-left {
-  margin-left: auto;
-}
 
 .w360 h3 {
   margin: 20px;
@@ -135,9 +132,6 @@ button:hover {
     width: 35%;
   }
 
-  .w360 h2 {
-  }
-
   .w360 h3 {
     margin: 5px;
   }
@@ -153,4 +147,9 @@ button:hover {
   .no3 {
     order: 3;
   }
+
+  .M0A_768{
+    margin: 0 auto;
+  }
+
 }
