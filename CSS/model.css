@@ -176,6 +176,15 @@ li a {
   transition: 0.8s;
 }
 
+.fiexd{
+  position: fixed;
+}
+
+.menuRT{
+  top: 0;
+  right: 0;
+}
+
 /* 效果欄位 */
 /* 目錄欄位效果 */
 li:hover a {
@@ -355,8 +364,16 @@ li:hover a {
   z-index: 1;
 }
 
+.top56{
+  top: 56px;
+}
+
 .z3{
   z-index: 3;
+}
+
+.z4{
+  z-index: 4;
 }
 
 /* 避免底層出現 */
@@ -450,5 +467,7 @@ li:hover a {
   .right_footer{
     font-size: 14px;
   }
+
+  
 
 }
