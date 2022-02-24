@@ -194,7 +194,6 @@ li:hover a {
 /* 懸浮按鈕特效 */
 .move_a a:hover {
   background-color: paleturquoise;
-  margin: 20px 0;
   border-radius: 50%;
 }
 
@@ -469,5 +468,5 @@ li:hover a {
   }
 
 
-  
+
 }
