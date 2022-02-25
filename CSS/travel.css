@@ -19,12 +19,14 @@
     display: flex;
     margin-bottom: 12px;
     height: 80px;    
+    justify-content: center;
 }
 
 .w1000h210{
     height: 280px;
     margin: 50px auto;
     margin-bottom: 12px;
+    justify-content: center;
 }
 
 .w960{

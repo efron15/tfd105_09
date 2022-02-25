@@ -101,38 +101,38 @@
                 <h4 class="topword">旅行,從這裡開始</h4>
             </div>
         </div>
-        <!-- 上標題結束 -->
 
         <!-- 中間外層頭 -->
         <div class="out19 BGC_A padding20">
-            <div class="out12 ooo ">
+            <!-- 查詢頭 -->
+            <div class="out12 ooo " id="demand">
                 <div class="color06">
                     <div class="w1000 wrap">
                         <div class="w480 displayflex align-itemscenter">
                             <h2>出發地</h2>
-                            <select name="" id="Departure" class="country">
+                            <select name="" id="Sno1" class="country">
                                 <option value="台灣">台灣</option>
                                 <option value="泰國">泰國</option>
-                                <option value="">日本</option>
-                                <option value="">澳門</option>
-                                <option value="">菲律賓</option>
-                                <option value="">越南</option>
+                                <option value="日本">日本</option>
+                                <option value="澳門">澳門</option>
+                                <option value="菲律賓">菲律賓</option>
+                                <option value="越南">越南</option>
                             </select>
                             <h2>目的地</h2>
-                            <select name="" id="destination" class="country">
-                                <option value="">台灣</option>
-                                <option value="">泰國</option>
-                                <option value="">日本</option>
-                                <option value="">澳門</option>
-                                <option value="">菲律賓</option>
-                                <option value="">越南</option>
+                            <select name="" id="Sno2" class="country">
+                                <option value="台灣">台灣</option>
+                                <option value="泰國">泰國</option>
+                                <option value="日本">日本</option>
+                                <option value="澳門">澳門</option>
+                                <option value="菲律賓">菲律賓</option>
+                                <option value="越南">越南</option>
                             </select>
                         </div>
                         <div class="w240 displayflex align-itemscenter">
                             <h2>請選擇航向</h2>
-                            <select name="" id="">
-                                <option value="">單程</option>
-                                <option value="">來回</option>
+                            <select name="" id="Sno3">
+                                <option value="單程">單程</option>
+                                <option value="來回">來回</option>
                             </select>
                         </div>
                     </div>
@@ -144,36 +144,36 @@
                         <div class="w480 displayflex align-itemscenter level">
                             <h2>乘客</h2>
                             <h3>成人</h3>
-                            <select name="" id="">
-                                <option value="">1人</option>
-                                <option value="">2人</option>
-                                <option value="">3人</option>
-                                <option value="">4人</option>
-                                <option value="">5人</option>
-                                <option value="">6人</option>
+                            <select name="" id="Sno4">
+                                <option value="1人">1人</option>
+                                <option value="2人">2人</option>
+                                <option value="3人">3人</option>
+                                <option value="4人">4人</option>
+                                <option value="5人">5人</option>
+                                <option value="6人">6人</option>
                             </select>
                             <h3>兒童</h3>
-                            <select name="" id="">
-                                <option value="">1人</option>
-                                <option value="">2人</option>
-                                <option value="">3人</option>
-                                <option value="">4人</option>
-                                <option value="">5人</option>
-                                <option value="">6人</option>
+                            <select name="" id="Sno5">
+                                <option value="1人">1人</option>
+                                <option value="2人">2人</option>
+                                <option value="3人">3人</option>
+                                <option value="4人">4人</option>
+                                <option value="5人">5人</option>
+                                <option value="6人">6人</option>
                             </select>
                             <h3>嬰兒</h3>
-                            <select name="" id="">
-                                <option value="">1人</option>
-                                <option value="">2人</option>
-                                <option value="">3人</option>
-                                <option value="">4人</option>
-                                <option value="">5人</option>
-                                <option value="">6人</option>
+                            <select name="" id="Sno6">
+                                <option value="1人">1人</option>
+                                <option value="2人">2人</option>
+                                <option value="3人">3人</option>
+                                <option value="4人">4人</option>
+                                <option value="5人">5人</option>
+                                <option value="6人">6人</option>
                             </select>
                             <h3>艙等</h3>
-                            <select name="" id="">
-                                <option value="">經濟艙</option>
-                                <option value="">商務艙</option>
+                            <select name="" id="Sno7">
+                                <option value="經濟艙">經濟艙</option>
+                                <option value="商務艙">商務艙</option>
                             </select>
                         </div>
                     </div>
@@ -186,39 +186,56 @@
                             </div>
                         </div>
                         <div class="w150">
-                            <a href="" class="BGC_E">
+                            <a class="BGC_E" id="search">
                                 <h2>搜尋行程</h2>
                             </a>
                         </div>
                     </div>
                 </div>
-            </div>  
+            </div>
+            <!-- 查詢尾 -->
 
             <!-- 回報票務資訊 -->
-            <div class="out12 ooo none ">
+            <div class="out12 ooo non " id="respond">
                 <div class="color06">
                     <div class="w1000h210 displayflex">
-                        <div class="w960 align-itemscenter">
+                        <div class="w960 align-itemscenter margin0">
                             <h5>您所選擇的行程</h5>
                             <div class="w900 displayflex">
-                                <h2>出發地:馬來西亞</h2>                   
-                                <h2>目的地:泰國</h2>
-                                <h2>出發日期:2021/01/02</h2>
-                                <h2>艙等:商務艙</h2>
+                                <h2>出發地:
+                                    <span id="Pno1"></span>
+                                </h2>                   
+                                <h2>目的地:
+                                    <span id="Pno2"></span>
+                                </h2>
+                                <h2>出發日期:
+                                    <span id="date"></span>
+                                </h2>
+                                <h2>艙等:
+                                    <span id="Pno7"></span>
+                                </h2>
                             </div>
                             <div class="w900 displayflex">
-                                <h2>此次航向:單向</h2>
-                                <h2>此次旅客:大人2人</h2>
-                                <h2>兒童1人</h2>
-                                <h2>嬰兒1人</h2>
+                                <h2>此次航向:
+                                    <span id="Pno3"></span>
+                                </h2>
+                                <h2>此次旅客:大人
+                                    <span id="Pno4"></span>
+                                </h2>
+                                <h2>兒童
+                                    <span id="Pno5"></span>
+                                </h2>
+                                <h2>嬰兒
+                                    <span id="Pno6"></span>
+                                </h2>
                             </div>              
                         </div>
                     </div>
                     <div class="justline"></div>
                     <div class="w1000 align-itemscenter">
                         <div class="w150">
-                            <a href="" class="BGC_D">
-                                <h2>確認並付款</h2>
+                            <a  class="BGC_E">
+                                <h2>確認預定</h2>
                             </a>
                         </div>
                     </div>
@@ -281,6 +298,8 @@
     </script>
     <!-- GoTop -->
     <script src="./scripts/GoTop.js"></script>
+    <!-- 查詢機票功能 -->
+    <script src="./scripts/travel.js"></script>
 </body>
 
 </html>
