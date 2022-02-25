@@ -23,7 +23,7 @@
 }
 
 .w1000h210{
-    height: 280px;
+    /* height: 280px; */
     margin: 50px auto;
     margin-bottom: 12px;
     justify-content: center;
@@ -44,6 +44,7 @@
     margin: 0 auto;
     margin-top: 0px;
     padding:10px;
+    flex-wrap: wrap;
 }
 
 .w900 h2{
