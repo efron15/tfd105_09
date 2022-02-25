@@ -18,7 +18,7 @@
     margin: 50px auto;
     display: flex;
     margin-bottom: 12px;
-    height: 80px;    
+    /* height: 80px;     */
     justify-content: center;
 }
 
@@ -34,6 +34,7 @@
     border: #000 1px solid;
     border-radius: 20px;
     text-align: center;
+    padding-bottom: 30px;
 }
 
 .w960 h5{
@@ -72,6 +73,7 @@
     text-align: center;
     margin-left: auto;
     margin-right: 30px;
+    cursor: pointer;
 }
 .w150 a{
     border-radius: 20px;

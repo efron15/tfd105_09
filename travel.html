@@ -15,7 +15,7 @@
     <script src="scripts/jquery-3.4.0.js"></script>
     <script src="library/nowtime.js"></script>
     <title>預定行程</title>
-    
+
 </head>
 
 <body>
@@ -65,13 +65,13 @@
                         <li><a href="./office.html">服務據點</a></li>
                         <li><a href="./member.html">會員專區</a></li>
                         <li><a href="./login.html" class="">
-                            會員Login
-                            <i class="fas fa-user"></i>
-                        </a></li>
+                                會員Login
+                                <i class="fas fa-user"></i>
+                            </a></li>
                         <li><a href="#">
-                            繁體中文
-                            <i class="fas fa-globe-africa"></i>
-                        </a></li>
+                                繁體中文
+                                <i class="fas fa-globe-africa"></i>
+                            </a></li>
                     </ul>
                 </div>
             </div>
@@ -93,8 +93,8 @@
     </div>
 
     <!-- 中間部分 -->
-    <main class="compute">  
-        
+    <main class="compute">
+
         <!-- 上層標題 -->
         <div class="out19 BGC_B">
             <div class="out12 text-aligncenter padding50">
@@ -196,7 +196,7 @@
             <!-- 查詢尾 -->
 
             <!-- 回報票務資訊 -->
-            <div class="out12 ooo non " id="respond">
+            <div class="out12 ooo none " id="respond">
                 <div class="color06">
                     <div class="w1000h210 displayflex">
                         <div class="w960 align-itemscenter margin0">
@@ -204,7 +204,7 @@
                             <div class="w900 displayflex">
                                 <h2>出發地:
                                     <span id="Pno1"></span>
-                                </h2>                   
+                                </h2>
                                 <h2>目的地:
                                     <span id="Pno2"></span>
                                 </h2>
@@ -216,9 +216,6 @@
                                 </h2>
                             </div>
                             <div class="w900 displayflex">
-                                <h2>此次航向:
-                                    <span id="Pno3"></span>
-                                </h2>
                                 <h2>此次旅客:大人
                                     <span id="Pno4"></span>
                                 </h2>
@@ -228,22 +225,28 @@
                                 <h2>嬰兒
                                     <span id="Pno6"></span>
                                 </h2>
-                            </div>              
+                                <h2>此次航向:
+                                    <span id="Pno3"></span>
+                                </h2>
+                            </div>
                         </div>
                     </div>
                     <div class="justline"></div>
                     <div class="w1000 align-itemscenter">
-                        <div class="w150">
-                            <a  class="BGC_E">
+                        <h2>您選擇的行程尚有空位</h2>
+                    </div>
+                    <div class="w1000 align-itemscenter">
+                        <div class="w150" id="sure">
+                            <a class="BGC_E">
                                 <h2>確認預定</h2>
                             </a>
                         </div>
                     </div>
                 </div>
-            </div>  
+            </div>
             <!-- 回報票務資訊結束 -->
 
-        <!-- 中間外層底 -->
+            <!-- 中間外層底 -->
         </div>
 
     </main>
@@ -273,8 +276,8 @@
                 <i class="fab fa-facebook-square"></i>
             </a>
             <!-- 回到最上面 -->
-            <a href="#" class="top-btn none" id = "top">
-                <i class="far fa-arrow-alt-to-top Gtop"></i>  
+            <a href="#" class="top-btn none" id="top">
+                <i class="far fa-arrow-alt-to-top Gtop"></i>
             </a>
         </div>
         <!-- 浮動臉書結尾 -->
@@ -284,18 +287,17 @@
     <script src="./scripts/textCarousel.js"></script>
     <!-- 現在時間 -->
     <script>
-        $(document).ready( function() {
-        today = nowtime();
-        $('#date').val(today);
+        $(document).ready(function () {
+            today = nowtime();
+            $('#date').val(today);
         });
-        
+
     </script>
-    
+
     <!-- Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous">
-    </script>
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+        </script>
     <!-- GoTop -->
     <script src="./scripts/GoTop.js"></script>
     <!-- 查詢機票功能 -->

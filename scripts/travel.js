@@ -1,7 +1,9 @@
 // 預定搜尋功能
-$(document).ready(function () {
-    
+$(document).ready(function () {    
     $("#search").click(function () {
+        $("#respond").css("display","block");
+        $("#demand").css("display","none");
+
         var data = [];
         for(i=1;i<=7;i++){
         data.push($(`#Sno${i}`).val());
@@ -29,3 +31,8 @@ $('#Sno1').change(function() {
     }
 
 });
+
+// 點擊確認預定
+$("#sure").click(function () {
+    alert("預定成功");
+})
