@@ -110,6 +110,11 @@
     padding: 20px 0;
 }
 
+.PTB50{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 /* 出發.目的地 */
 /* 選擇航向 */
 .w240 h2{
